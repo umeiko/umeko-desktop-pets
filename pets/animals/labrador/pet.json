@@ -1,0 +1,85 @@
+{
+  "format": "umeko-pet",
+  "version": 1,
+  "id": "labrador-retriever",
+  "name": "拉布拉多",
+  "packVersion": "1.0.0",
+  "author": "Umeko contributors",
+  "license": "MIT",
+  "description": "奶油黄色短毛、垂耳、棕眼睛，温柔又有精神的拉布拉多。",
+  "states": {
+    "idle": "idle.webp",
+    "thinking": "thinking.webp",
+    "working": "working.webp",
+    "waiting": "waiting.webp",
+    "done": "done.webp",
+    "error": "error.webp"
+  },
+  "images": {
+    "idle.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.059895833333333336
+    },
+    "thinking.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0
+    },
+    "working.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 4,
+      "contentTop": 0.06770833333333333
+    },
+    "waiting.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.13802083333333334
+    },
+    "done.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.010416666666666666
+    },
+    "error.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0
+    }
+  },
+  "dialogue": {
+    "tap": [
+      "汪！我在。",
+      "摸摸耳朵？",
+      "一起把任务做好。"
+    ],
+    "hover": [
+      "陪你盯着呢。",
+      "尾巴已经准备好了。"
+    ],
+    "drag": [
+      "换个位置，继续陪你。",
+      "轻一点，汪。"
+    ],
+    "done": [
+      "汪！任务完成啦。",
+      "干得漂亮，摇尾巴！"
+    ],
+    "error": [
+      "汪？这一步需要再看看。",
+      "没关系，我陪你检查。"
+    ]
+  }
+}

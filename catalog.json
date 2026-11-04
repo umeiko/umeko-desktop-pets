@@ -1,0 +1,44 @@
+{
+  "format": "umeko-desktop-pets-catalog",
+  "version": 1,
+  "categories": [
+    {
+      "id": "animals",
+      "name": "动物"
+    },
+    {
+      "id": "characters",
+      "name": "人物"
+    }
+  ],
+  "pets": [
+    {
+      "id": "labrador-retriever",
+      "name": "拉布拉多",
+      "englishName": "Labrador Retriever",
+      "category": "animals",
+      "version": "1.0.0",
+      "description": "奶油黄色短毛、垂耳、棕眼睛，温柔又有精神的拉布拉多。",
+      "manifest": "pets/animals/labrador/pet.json",
+      "preview": "preview/labrador.png",
+      "animation": "pets/animals/labrador/idle.webp",
+      "download": "dist/animals/umeko-pet-labrador-1.0.0.zip",
+      "bytes": 2533275,
+      "sha256": "48977798548e5c1d4ce99cd7e2c19379bf97547736c13dfc14e07e466c9a6614"
+    },
+    {
+      "id": "ragdoll-cat",
+      "name": "布偶猫",
+      "englishName": "Ragdoll Cat",
+      "category": "animals",
+      "version": "1.0.0",
+      "description": "海豹双色、蓝眼睛、白色倒 V 面纹和蓬松长尾，安静陪伴的布偶猫。",
+      "manifest": "pets/animals/ragdoll/pet.json",
+      "preview": "preview/ragdoll.png",
+      "animation": "pets/animals/ragdoll/idle.webp",
+      "download": "dist/animals/umeko-pet-ragdoll-1.0.0.zip",
+      "bytes": 2286644,
+      "sha256": "9c34e9335d9b1a199c011689857ba19619fc3322dd89e57eac1eda71c1462273"
+    }
+  ]
+}

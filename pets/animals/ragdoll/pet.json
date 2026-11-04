@@ -1,0 +1,84 @@
+{
+  "format": "umeko-pet",
+  "version": 1,
+  "id": "ragdoll-cat",
+  "name": "布偶猫",
+  "packVersion": "1.0.0",
+  "author": "Umeko contributors",
+  "license": "MIT",
+  "description": "海豹双色、蓝眼睛、白色倒 V 面纹和蓬松长尾，安静陪伴的布偶猫。",
+  "states": {
+    "idle": "idle.webp",
+    "thinking": "thinking.webp",
+    "working": "working.webp",
+    "waiting": "waiting.webp",
+    "done": "done.webp",
+    "error": "error.webp"
+  },
+  "images": {
+    "idle.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.06510416666666667
+    },
+    "thinking.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0
+    },
+    "working.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 4,
+      "contentTop": 0.06770833333333333
+    },
+    "waiting.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.13020833333333334
+    },
+    "done.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.10416666666666667
+    },
+    "error.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0625
+    }
+  },
+  "dialogue": {
+    "tap": [
+      "喵，叫我吗？",
+      "可以摸摸，不许捣乱。",
+      "我在陪你。"
+    ],
+    "hover": [
+      "工作归你，陪伴归我。",
+      "我有认真看着。"
+    ],
+    "drag": [
+      "喵，换个舒服的地方。"
+    ],
+    "done": [
+      "喵，做好了。",
+      "这次值得伸个懒腰。"
+    ],
+    "error": [
+      "喵？这里有点不对。",
+      "慢慢检查，我等你。"
+    ]
+  }
+}
