@@ -22,15 +22,15 @@
 </style>
 <header><a class="brand" href="#">Umeko <span>Pets</span></a><span class="edition">ANIMALS / VOL. 01</span></header>
 <main>
-  <section class="intro"><div><p class="eyebrow">A LITTLE COMPANY</p><h1>两只新朋友，陪你开工。</h1><p>摇摇尾巴，眨眨眼。把日常的小陪伴，放在桌面一角。</p></div><div class="controls" aria-label="透明背景检查"><button aria-pressed="true" data-theme="light">浅色背景</button><button aria-pressed="false" data-theme="dark">深色背景</button></div></section>
-  <nav class="categories" aria-label="分类"><span class="category active">动物 <small>02</small></span><span class="category">人物 <small>准备中</small></span></nav>
+  <section class="intro"><div><p class="eyebrow">A LITTLE COMPANY</p><h1>三只新朋友，陪你开工。</h1><p>摇摇尾巴，眨眨眼。把日常的小陪伴，放在桌面一角。</p></div><div class="controls" aria-label="透明背景检查"><button aria-pressed="true" data-theme="light">浅色背景</button><button aria-pressed="false" data-theme="dark">深色背景</button></div></section>
+  <nav class="categories" aria-label="分类"><span class="category active">动物 <small>03</small></span><span class="category">人物 <small>准备中</small></span></nav>
   <section class="pets" id="pets" aria-label="动物桌宠"></section>
   <section class="how"><div><h3>放到你的桌面</h3><span class="hint">NO EXTRA DEPENDENCIES</span></div><div class="steps"><div class="step"><b>01 / 下载</b>选择喜欢的动物，下载 ZIP。</div><div class="step"><b>02 / 导入</b>设置 → Agent → 插件管理<br>→ 桌面小宠物 → 导入形象。</div><div class="step"><b>03 / 陪伴</b>选中形象，即可开始。<br>无需解压或安装其他组件。</div></div></section>
 </main>
 <footer><span>Umeko Pets · 六种状态 · 透明循环 WebP · MIT</span><span>动物原画使用 imagegen 制作，动作由实际姿态帧组成。</span></footer>
 <script>
   const states={idle:'待机',thinking:'思考',working:'工作',waiting:'等待',done:'完成',error:'出错'};
-  const pets=[{slug:'labrador',name:'拉布拉多',english:'LABRADOR RETRIEVER',id:'labrador-retriever',description:'奶油色短毛，软软的垂耳。认真时陪你迈开步子，做完事情就开心地摇尾巴。',size:'2.42 MiB'}, {slug:'ragdoll',name:'布偶猫',english:'RAGDOLL CAT',id:'ragdoll-cat',description:'蓝眼睛、白色倒 V 面纹，和一条蓬松长尾巴。安静地陪着，偶尔慢慢眨一下眼睛。',size:'2.18 MiB'}];
+  const pets=[{slug:'labrador',name:'拉布拉多',english:'LABRADOR RETRIEVER',id:'labrador-retriever',description:'奶油色短毛，软软的垂耳。认真时陪你迈开步子，做完事情就开心地摇尾巴。',size:'2.42 MiB'}, {slug:'ragdoll',name:'布偶猫',english:'RAGDOLL CAT',id:'ragdoll-cat',description:'蓝眼睛、白色倒 V 面纹，和一条蓬松长尾巴。安静地陪着，偶尔慢慢眨一下眼睛。',size:'2.18 MiB'}, {slug:'rottweiler',name:'罗威纳',english:'ROTTWEILER',id:'rottweiler-dog',description:'黑色短毛、棕褐眉点，沉稳又可靠。陪你认真开工，收工时也会开心地摇尾巴。',size:'2.52 MiB'}];
   const root=document.querySelector('#pets');
   for(const pet of pets){
     const card=document.createElement('article');card.className='pet';card.dataset.pet=pet.slug;

@@ -1,11 +1,14 @@
 # 美术来源与提示词
 
-这批资源通过内置 `image_gen` 生成，未调用 CLI 或外部图像 API，也未使用第三方角色或照片。制作日期：2026-11-04。
+这批资源通过内置 `image_gen` 生成，未调用 CLI 或外部图像 API，也未使用第三方角色或照片。拉布拉多和布偶猫制作日期：2026-11-04；罗威纳制作日期：2026-11-05。
 
 - `animals/labrador/atlas.png`：拉布拉多原画，最终输出 `exec-f8df2109-3b03-4694-9353-838a50429ca1.png`。
 - `animals/ragdoll/atlas.png`：布偶猫原画，最终输出 `exec-468684b0-842a-49d1-8f41-315586d87c0f.png`。
-- 两张图均为 1024×1536、4 列 6 行的 RGBA 动作图集。行顺序为 idle、thinking、working、waiting、done、error，每行四个真实姿态。
+- `animals/rottweiler/atlas.png`：罗威纳原画，以本仓库拉布拉多图集为风格和布局参考，最终输出 `exec-9e431342-07dd-48b5-936e-96b8171177c3.png`。
+- 三张图均为 1024×1536、4 列 6 行的 RGBA 动作图集。行顺序为 idle、thinking、working、waiting、done、error，每行四个真实姿态。
 - 构建脚本只拆帧、以同一比例导出、对齐落脚线、安排播放时长和编码 WebP，不通过变形静态图片合成动作。
+
+罗威纳的完整生成提示词见 [设计记录](animals/rottweiler/PROMPT.md)。
 
 ## 拉布拉多设计提示词
 

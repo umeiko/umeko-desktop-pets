@@ -39,6 +39,20 @@
       "download": "dist/animals/umeko-pet-ragdoll-1.0.0.zip",
       "bytes": 2286644,
       "sha256": "9c34e9335d9b1a199c011689857ba19619fc3322dd89e57eac1eda71c1462273"
+    },
+    {
+      "id": "rottweiler-dog",
+      "name": "罗威纳",
+      "englishName": "Rottweiler",
+      "category": "animals",
+      "version": "1.0.0",
+      "description": "黑色短毛、棕褐眉点和自然垂耳，沉稳可靠又爱摇尾巴的罗威纳。",
+      "manifest": "pets/animals/rottweiler/pet.json",
+      "preview": "preview/rottweiler.png",
+      "animation": "pets/animals/rottweiler/idle.webp",
+      "download": "dist/animals/umeko-pet-rottweiler-1.0.0.zip",
+      "bytes": 2638086,
+      "sha256": "b5e680cdb431452e418da76f25de33341eea0ffb79b41e3dabb2cdedd2a8ea0e"
     }
   ]
 }

@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | 拉布拉多 | ![拉布拉多](pets/animals/labrador/idle.webp) | [拉布拉多 ZIP](dist/animals/umeko-pet-labrador-1.0.0.zip) |
 | 布偶猫 | ![布偶猫](pets/animals/ragdoll/idle.webp) | [布偶猫 ZIP](dist/animals/umeko-pet-ragdoll-1.0.0.zip) |
+| 罗威纳 | ![罗威纳](pets/animals/rottweiler/idle.webp) | [罗威纳 ZIP](dist/animals/umeko-pet-rottweiler-1.0.0.zip) |
 
 每只宠物提供待机、思考、工作、等待、完成、出错六种透明循环动画，以及点击、悬停、拖动和任务结果台词。统一 384×384 画布；使用实际绘制的姿态帧，不通过拉伸身体制造动作。
 

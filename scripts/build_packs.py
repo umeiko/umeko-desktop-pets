@@ -48,12 +48,23 @@ PETS = {
             "error": ["喵？这里有点不对。", "慢慢检查，我等你。"],
         },
     },
+    "rottweiler": {
+        "id": "rottweiler-dog", "name": "罗威纳", "englishName": "Rottweiler",
+        "description": "黑色短毛、棕褐眉点和自然垂耳，沉稳可靠又爱摇尾巴的罗威纳。",
+        "dialogue": {
+            "tap": ["汪，我在这儿。", "摸摸头，继续加油。", "今天也陪你守好这一班。"],
+            "hover": ["放心做事，有我陪着。", "认真看着呢，汪。"],
+            "drag": ["换个位置，继续站岗。", "到这边陪你。"],
+            "done": ["汪！任务完成，干得漂亮。", "守到收工啦，摇摇尾巴！"],
+            "error": ["汪？一起看看哪里卡住了。", "别着急，我陪你重新检查。"],
+        },
+    },
 }
 
 
 def write_json(path: Path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def export_frame(atlas: Image.Image, column: int, row: int):
@@ -109,17 +120,19 @@ def build_one(slug, pet):
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         files = {path.name: path.read_bytes() for path in sorted(folder.iterdir())
                  if path.name in {"pet.json", *(state + ".webp" for state in STATES)}}
-        files["LICENSE.txt"] = (ROOT / "LICENSE").read_bytes()
+        files["LICENSE.txt"] = (ROOT / "LICENSE").read_text(encoding="utf-8").encode("utf-8")
         for name, data in sorted(files.items()):
             entry = zipfile.ZipInfo(name, (2026, 11, 4, 0, 0, 0))
+            # Keep ZIP metadata identical when exporting on Windows or Unix.
+            entry.create_system = 3
             entry.compress_type = zipfile.ZIP_DEFLATED
             entry.external_attr = 0o100644 << 16
             archive.writestr(entry, data, compresslevel=9)
     record = {"id": pet["id"], "name": pet["name"], "englishName": pet["englishName"],
               "category": "animals", "version": VERSION, "description": pet["description"],
-              "manifest": str((folder / "pet.json").relative_to(ROOT)),
+              "manifest": (folder / "pet.json").relative_to(ROOT).as_posix(),
               "preview": f"preview/{slug}.png", "animation": f"pets/animals/{slug}/idle.webp",
-              "download": str(output.relative_to(ROOT)), "bytes": output.stat().st_size,
+              "download": output.relative_to(ROOT).as_posix(), "bytes": output.stat().st_size,
               "sha256": hashlib.sha256(output.read_bytes()).hexdigest()}
     print(f"BUILT {record['download']} ({record['bytes']:,} bytes)")
     return record
@@ -136,4 +149,4 @@ if __name__ == "__main__":
         "pets": entries,
     })
     (ROOT / "dist/SHA256SUMS").write_text("".join(
-        f"{entry['sha256']}  {entry['download'].removeprefix('dist/')}\n" for entry in entries), encoding="utf-8")
+        f"{entry['sha256']}  {entry['download'].removeprefix('dist/')}\n" for entry in entries), encoding="utf-8", newline="\n")

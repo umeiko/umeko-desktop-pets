@@ -1,0 +1,85 @@
+{
+  "format": "umeko-pet",
+  "version": 1,
+  "id": "rottweiler-dog",
+  "name": "罗威纳",
+  "packVersion": "1.0.0",
+  "author": "Umeko contributors",
+  "license": "MIT",
+  "description": "黑色短毛、棕褐眉点和自然垂耳，沉稳可靠又爱摇尾巴的罗威纳。",
+  "states": {
+    "idle": "idle.webp",
+    "thinking": "thinking.webp",
+    "working": "working.webp",
+    "waiting": "waiting.webp",
+    "done": "done.webp",
+    "error": "error.webp"
+  },
+  "images": {
+    "idle.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0
+    },
+    "thinking.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.028645833333333332
+    },
+    "working.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 4,
+      "contentTop": 0.059895833333333336
+    },
+    "waiting.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.09895833333333333
+    },
+    "done.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0078125
+    },
+    "error.webp": {
+      "animated": true,
+      "width": 384,
+      "height": 384,
+      "frames": 6,
+      "contentTop": 0.0
+    }
+  },
+  "dialogue": {
+    "tap": [
+      "汪，我在这儿。",
+      "摸摸头，继续加油。",
+      "今天也陪你守好这一班。"
+    ],
+    "hover": [
+      "放心做事，有我陪着。",
+      "认真看着呢，汪。"
+    ],
+    "drag": [
+      "换个位置，继续站岗。",
+      "到这边陪你。"
+    ],
+    "done": [
+      "汪！任务完成，干得漂亮。",
+      "守到收工啦，摇摇尾巴！"
+    ],
+    "error": [
+      "汪？一起看看哪里卡住了。",
+      "别着急，我陪你重新检查。"
+    ]
+  }
+}

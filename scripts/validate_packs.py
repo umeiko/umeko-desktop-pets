@@ -43,6 +43,8 @@ if __name__ == "__main__":
                     assert frame.pixelColor(0, 0).alpha() == 0
                     duration += reader.nextImageDelay()
                 states[state] = {**checked["images"][filename], "durationMs": duration}
+                # Release the file before TemporaryDirectory cleanup on Windows.
+                del reader
             report.append({"id": pack["id"], "status": "imported", "states": states})
             print("PASS actual Umeko import:", pack["name"], pack["id"])
     output = ROOT / "build/validation.json"
