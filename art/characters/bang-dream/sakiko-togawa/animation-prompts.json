@@ -1,0 +1,135 @@
+{
+  "IDLE01": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 1.583333 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. Begin in the reference pose, hands lightly together in front of her waist. A small natural breathing cycle lifts and settles the shoulders; hair tips and ribbon ends move very gently. Blink once. Keep the refined little closed-mouth smile and return smoothly to the initial pose. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "c3fcd543f11cec7eb091e4ac5802231c3b610a623dae79dd23883c69269038b2",
+    "native_frames": 39,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "idle.gif"
+  },
+  "THINKING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. From the neutral pose, raise one hand slowly to just below the chin, tilt the head slightly and look a little to the side as if considering a melody. The other hand stays close to the waist. Blink once, let the expression become faintly decisive, then lower the hand and return to the initial pose. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "3a6809e27b918430779685cc25d6bd6fbeb7eb42b99dbae1ad28cfba609c7add",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "thinking.gif"
+  },
+  "WORKING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. From her resting pose she lowers her gaze in concentration, brings both hands a little forward at waist height and makes two tiny alternating fingertip motions. She gives one restrained rhythmic nod, relaxes both hands and returns them to the reference resting pose. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "c3c1cacb794ce99c4834c2be9df539da05f31e4a34987ae08ffb554b7cacae5c",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "working.gif"
+  },
+  "WAITING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. Keep a poised upright stance. Briefly shift her gaze sideways, make one small patient head tilt, and lightly adjust the resting hands at her waist. Blink once, then look forward again. The mood is politely expectant, without foot tapping or walking. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "d50943e72f9df3f1cf5983ff29a1f6327f9aa277e282a9ae3be6bd32073c81f0",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "waiting.gif"
+  },
+  "DONE": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. Her reserved smile brightens slightly. Raise one small hand to the chest in a restrained satisfied gesture and give a tiny confident nod. Hold briefly, then lower the hand and return to the initial calm smile. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "f0de31447b12a2b6c7551d8d60de8712603f9d8a5e012d6e1e1a84fb25be7504",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "done.gif"
+  },
+  "ERROR": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. Her brows draw together slightly and the small mouth becomes mildly troubled. Lift one hand gently near the temple, pause as if reconsidering, and give a very small head shake. Blink, relax the shoulders and return to neutral. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "ec29efb1033ef06f06b35588a1ff24c2d63f8531c569106c2da576930b3914b5",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "error.gif"
+  },
+  "IDLE_RARE": {
+    "revision": "r0002",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 4.416667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. Her hands begin in the reference resting position at the waist. Between 0.6 and 1.4 seconds she folds her arms elegantly: the right forearm lies horizontally across the upper abdomen, the left forearm crosses above it below the chest, each hand resting on the opposite upper arm. Her elbows stay low and her forearms remain clearly crossed flat against the torso. She gently raises her chin with a small proud satisfied closed-lip smile and holds this relaxed arms-folded pose until 3.0 seconds. She blinks slowly, then smoothly unfolds her arms and lowers both hands back to the reference waist pose by the end. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
+    "source_sha256": "30596105066ea27cef2a58c455360673d8cdbccff559dcd211340ff2a8bc7979",
+    "native_frames": 107,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "idle-rare.gif"
+  }
+}

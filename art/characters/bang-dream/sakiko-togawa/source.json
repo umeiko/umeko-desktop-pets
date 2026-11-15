@@ -1,0 +1,153 @@
+{
+  "character": "sakiko-togawa",
+  "franchise": "BanG Dream!",
+  "officialReference": "https://anime.bang-dream.com/avemujica/character/sakiko/",
+  "deliveredAt": "2026-11-15T17:27:01.870341+00:00",
+  "characterImageSha256": "ac1975cc9de8bdba8b444151c6245f8938900e77ba8170ade1e3080c81ac4f06",
+  "animationOrigin": "Independent H3 image-guided native videos, chroma-keyed to transparent GIF by the producing project. Final GIF bytes are preserved unchanged.",
+  "workflow": {
+    "schema": "h3_sampling_v1",
+    "steps": 4,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+    "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+    "shift_video": 6.0,
+    "shift_audio": 3.0,
+    "strength_model": 1.0
+  },
+  "keyColor": "green",
+  "animations": [
+    {
+      "name": "idle.gif",
+      "sha256": "4867bcd18ca45598464d14ec6219f315fbb11aa2df760afb88386560160f2305",
+      "frames": 39,
+      "milliseconds": 1800,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        90,
+        32,
+        420,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    },
+    {
+      "name": "thinking.gif",
+      "sha256": "2fefd9d33d5fe32fb60f8b92dc139da694fcf7032cd6d4665d1e7b403702168d",
+      "frames": 56,
+      "milliseconds": 2400,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        94,
+        40,
+        424,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    },
+    {
+      "name": "working.gif",
+      "sha256": "d544f6ef8c8c6e77a1922294b1b1d163ef24818fa0225c24725258fd3ddca87e",
+      "frames": 56,
+      "milliseconds": 2000,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        92,
+        38,
+        418,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    },
+    {
+      "name": "waiting.gif",
+      "sha256": "6a62eb2001ab5cede3de595586681ce5e54e732aa907e26bdaa941e9a54dfd83",
+      "frames": 56,
+      "milliseconds": 2600,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        95,
+        40,
+        418,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    },
+    {
+      "name": "done.gif",
+      "sha256": "e753e72f87c2e58752c443fca1be315620fe8cf106b9cb3bad922743f65b47f7",
+      "frames": 56,
+      "milliseconds": 2000,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        92,
+        40,
+        420,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    },
+    {
+      "name": "error.gif",
+      "sha256": "49e60d70190e1286013a6fa7079260859f124485064b5ff9a01875fbe35eb722",
+      "frames": 56,
+      "milliseconds": 2500,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        96,
+        38,
+        418,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    },
+    {
+      "name": "idle-rare.gif",
+      "sha256": "1c3733a0ade1b2c9e53ffb22f1fc4d2bc56efea8d0cd65e29aaf7029f30a19a1",
+      "frames": 107,
+      "milliseconds": 4200,
+      "loop": 0,
+      "all_frames_border_transparent": true,
+      "disposal": 2,
+      "bbox_union": [
+        92,
+        40,
+        422,
+        456
+      ],
+      "bottom_min": 456,
+      "bottom_max": 456
+    }
+  ],
+  "nativeVideoSha256": {
+    "idle.mp4": "c3fcd543f11cec7eb091e4ac5802231c3b610a623dae79dd23883c69269038b2",
+    "thinking.mp4": "3a6809e27b918430779685cc25d6bd6fbeb7eb42b99dbae1ad28cfba609c7add",
+    "working.mp4": "c3c1cacb794ce99c4834c2be9df539da05f31e4a34987ae08ffb554b7cacae5c",
+    "waiting.mp4": "d50943e72f9df3f1cf5983ff29a1f6327f9aa277e282a9ae3be6bd32073c81f0",
+    "done.mp4": "f0de31447b12a2b6c7551d8d60de8712603f9d8a5e012d6e1e1a84fb25be7504",
+    "error.mp4": "ec29efb1033ef06f06b35588a1ff24c2d63f8531c569106c2da576930b3914b5",
+    "idle-rare.mp4": "30596105066ea27cef2a58c455360673d8cdbccff559dcd211340ff2a8bc7979"
+  },
+  "personaLanguage": "zh-CN",
+  "personaCharacters": 582,
+  "personaSha256": "62ab050606253614590406581cd0882c901741e7a2acaf979be08a2a126cf938"
+}

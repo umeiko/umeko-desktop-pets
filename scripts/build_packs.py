@@ -1,4 +1,4 @@
-"""Slice generated animation atlases, encode WebP, and build reproducible Umeko ZIPs.
+"""Export animal atlases and package delivered character GIFs into Umeko ZIPs.
 
 This is an asset export pipeline; it does not draw, deform or synthesize poses.
 Requires Python 3.10+ and Pillow with animated WebP support.
@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import argparse
 from pathlib import Path
 import zipfile
 
@@ -138,11 +139,61 @@ def build_one(slug, pet):
     return record
 
 
+def build_characters():
+    """Package delivered native animations byte-for-byte; never regenerate them."""
+    records = []
+    for manifest_path in sorted((ROOT / 'pets/characters').glob('**/pet.json')):
+        folder = manifest_path.parent
+        pet = json.loads(manifest_path.read_text(encoding='utf-8'))
+        names = set(pet['states'].values())
+        if pet.get('rareIdle'):
+            names.add(pet['rareIdle']['image'])
+        files = {'pet.json': manifest_path.read_bytes(), 'LICENSE.txt': (folder / 'LICENSE.txt').read_bytes()}
+        for name in sorted(names):
+            path = folder / name
+            if path.is_symlink() or path.resolve().parent != folder.resolve():
+                raise ValueError(f'Expected a local flat animation file: {path}')
+            files[name] = path.read_bytes()
+        relative_folder = folder.relative_to(ROOT / 'pets')
+        output = ROOT / 'dist' / relative_folder.parent / f"umeko-pet-{pet['id']}-{pet['packVersion']}.zip"
+        output.parent.mkdir(parents=True, exist_ok=True)
+        with zipfile.ZipFile(output, 'w') as archive:
+            for name, data in sorted(files.items()):
+                entry = zipfile.ZipInfo(name, (2026, 11, 15, 0, 0, 0))
+                entry.compress_type = zipfile.ZIP_DEFLATED
+                entry.external_attr = 0o100644 << 16
+                archive.writestr(entry, data, compresslevel=9)
+        preview = ROOT / 'preview' / relative_folder.with_suffix('.png')
+        preview.parent.mkdir(parents=True, exist_ok=True)
+        with Image.open(folder / pet['states']['idle']) as image:
+            image.convert('RGBA').save(preview)
+        records.append({
+            'id': pet['id'], 'name': pet['name'], 'englishName': pet['englishName'],
+            'category': 'characters', 'collection': pet.get('collection', ''),
+            'version': pet['packVersion'], 'description': pet['description'],
+            'manifest': manifest_path.relative_to(ROOT).as_posix(),
+            'preview': preview.relative_to(ROOT).as_posix(),
+            'animation': (folder / pet['states']['idle']).relative_to(ROOT).as_posix(),
+            'download': output.relative_to(ROOT).as_posix(), 'bytes': output.stat().st_size,
+            'sha256': hashlib.sha256(output.read_bytes()).hexdigest(),
+        })
+        print(f"BUILT {records[-1]['download']} ({records[-1]['bytes']:,} bytes)")
+    return records
+
+
 if __name__ == "__main__":
-    if not features.check("webp_anim"):
-        raise SystemExit("Pillow needs animated WebP support")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--characters-only', action='store_true', help='Keep existing animal exports unchanged')
+    args = parser.parse_args()
+    if not args.characters_only and not features.check("webp"):
+        raise SystemExit("Pillow needs WebP support")
     (ROOT / "preview").mkdir(exist_ok=True)
-    entries = [build_one(slug, pet) for slug, pet in PETS.items()]
+    if args.characters_only:
+        previous = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
+        entries = [entry for entry in previous['pets'] if entry['category'] != 'characters']
+    else:
+        entries = [build_one(slug, pet) for slug, pet in PETS.items()]
+    entries += build_characters()
     write_json(ROOT / "catalog.json", {
         "format": "umeko-desktop-pets-catalog", "version": 1,
         "categories": [{"id": "animals", "name": "动物"}, {"id": "characters", "name": "人物"}],

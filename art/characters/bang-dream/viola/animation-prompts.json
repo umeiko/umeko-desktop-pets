@@ -1,0 +1,135 @@
+{
+  "IDLE01": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 1.583333 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. Use the reference pose with one index finger gently beside the chin and the other arm relaxed. Let the shoulders breathe subtly, move only the loose hair tips very slightly, and blink naturally once. Keep the sweet little smile and finish in the original pose. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "c620ce0222906481cfd2e6980f293595573673a53c9611c55aaad479ba4f196a",
+    "native_frames": 39,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "idle.gif"
+  },
+  "THINKING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. From the reference pose, tilt the head slightly and look up to one side while the fingertip stays near the chin. The smile narrows into a small knowing expression. Blink once, let the eyes return toward the viewer, and smoothly restore the initial head angle. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "de056d272d568a8f2ce3f6732dc514a46506f57d08e47a9f8b8bf5c6cecf0a60",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "thinking.gif"
+  },
+  "WORKING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. She lowers her hand from her chin, brings both hands neatly together in front of her waist, looks down with focused self-assurance and makes two small precise fingertip organizing gestures. She gives a tiny approving nod and returns her hand to the original chin pose. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "dbdacfa548c14cca291600bb9406c9fe6cea96f8a70935bfd3f93ad981a7f3d2",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "working.gif"
+  },
+  "WAITING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. Maintain the sweet smile. Give one small expectant head tilt and a gentle brief wave with the free hand, then lower that hand and blink. The hand beside the chin remains steady. Return smoothly to the reference pose without leaning the whole body or moving the feet. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "74c0a744c40d79634c37f33e3b9e21b487a6443f33f81fa222ddafd02f3e0c03",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "waiting.gif"
+  },
+  "DONE": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. Her smile brightens with a little pleased self-confidence. Give one restrained approving nod and a small wave with the free hand. Briefly narrow the eyes happily, then reopen them and restore the reference expression and pose. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "99be7bcc474f1521453d9ff154ad9fe200a8121b554e41f45c253e89106e31b0",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "done.gif"
+  },
+  "ERROR": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. The smile pauses for a moment; one eyebrow lifts slightly and the mouth becomes a small embarrassed pout. The free hand draws inward a little, then relaxes as she blinks and recovers her composed smile. Keep it cute and mild, with no rage face or exaggerated distortion. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "d14d7a93ddc695b40be4a45fe59c7bab882ee5069bbe60178d24d0925b998da8",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "error.gif"
+  },
+  "IDLE_RARE": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 4.416667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. Begin with the usual sweet smile. Slowly narrow the eyes into a tiny mischievous, self-satisfied look, lightly cover the lower mouth with the raised hand as if suppressing a soft chuckle, then blink and return to the original sweet smile and fingertip-near-chin pose. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+    "source_sha256": "c4c52fab21203b011d277c2fe3c0fba1931e3ec506f5d38b27e4870dd3e19b36",
+    "native_frames": 107,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "idle-rare.gif"
+  }
+}

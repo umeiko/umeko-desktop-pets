@@ -1,0 +1,135 @@
+{
+  "IDLE01": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 1.583333 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. Begin with both small hands resting together in front of the lower torso. Breathe very subtly, allowing the shoulder line and long hair ends to settle softly. Blink once at a natural pace. Keep the small neutral mouth and quiet expression, then finish in the exact starting stance. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "6586328facb5d7359aeecb892243efc932e2d2353f0b02e6d3fa216ed2ef461b",
+    "native_frames": 39,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "idle.gif"
+  },
+  "THINKING": {
+    "revision": "r0002",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. Her left forearm stays relaxed at the lower abdomen and her left hand stays in its original low resting location throughout the cycle. Her right elbow slowly bends and the fingertips of her right hand gently touch her right cheek. She lowers her gaze and tilts her head a few degrees with a calm thoughtful expression, briefly pauses and blinks once. Her right hand then descends to join her stationary left hand again at the lower torso. Her mouth is the original tiny neutral closed line. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "c734e29ea5e40ec426e4fd9ba93e2c78109dc5e386f62a167f0e3b7da088e2e6",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "thinking.gif"
+  },
+  "WORKING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. She looks a little downward with quiet concentration, gently separates her hands at waist height and performs a short sequence of tiny measured fingertip movements. She gives a barely perceptible nod, settles her fingers and brings her hands together again. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "96423ce2c02f18b173589f281c1ea0efb4c5e0a7414a7690354478dfb958091b",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "working.gif"
+  },
+  "WAITING": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. Remain still and reserved. Shift her eyes gently toward one side, tilt the head slightly, then blink and look back toward the viewer. The hands make only one tiny settling movement. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "1d9a37ffc46985b3cad99c5590083dfd4e68e470b94ffeb5b8ddc1b8481aca77",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "waiting.gif"
+  },
+  "DONE": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. Her eyes soften into the smallest satisfied smile. Raise one hand a short distance in a tiny acknowledging wave, make one small nod, then return the hand to the resting pose. The happiness stays subtle and recognizable as Mutsumi, with no jumping or exaggerated cheering. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "add6f20893d739ab953c83cd64813f0bb07c5235a26fed0dde17cfdb4671db92",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "done.gif"
+  },
+  "ERROR": {
+    "revision": "r0001",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. Slightly lower her gaze, draw the brows together a little and hesitate with the hands close together. Give a small apologetic head tilt, blink once, take a light breath and recover the original neutral pose. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "c477eca66e7e8c25bbfb4c48bef71e951938c0d424496b1b73732fc1407d008b",
+    "native_frames": 56,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "error.gif"
+  },
+  "IDLE_RARE": {
+    "revision": "r0002",
+    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 4.416667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. She begins with both hands together at the lower torso. Her left hand stays low and relaxed beside her waist throughout. Her right hand rises along the outside of her head to the existing front hair strand beside her right temple. Her right index and middle fingertips touch that hair lock at outer-eye height and gently sweep it backward toward her ear, lightly tucking the strand behind the ear between 1.3 and 2.4 seconds. The fingers remain beside the hairline as she briefly glances sideways shyly, with a tiny closed-lip smile and faint blush. She then releases the hair, slowly blinks and lowers her right hand to join the left at the lower torso, restoring her original quiet standing pose. Preserve the same long hair length and overall hairstyle. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+    "source_sha256": "f894246f245c9a9fd4196b137bbbb4190568574deb72c27fe8d67be9cc23654b",
+    "native_frames": 107,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "gif_filename": "idle-rare.gif"
+  }
+}

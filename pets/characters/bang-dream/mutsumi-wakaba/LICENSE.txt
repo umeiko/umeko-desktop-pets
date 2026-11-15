@@ -1,0 +1,5 @@
+BanG Dream! character fan-art desktop-pet assets
+
+These are unofficial AI-generated fan-art adaptations of existing BanG Dream! characters. Character names, underlying designs and franchise rights remain with their respective rights holders. This notice does not grant rights in the underlying franchise or imply official endorsement.
+
+The repository MIT license covers its original tooling and separately identified original resources; it does not relicense third-party character rights. Animation provenance and the original persona adaptation are documented in art/characters/bang-dream/ in the source repository.
