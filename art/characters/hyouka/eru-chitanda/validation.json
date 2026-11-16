@@ -1,0 +1,196 @@
+{
+  "scope": "Supplied animations and importable pet pack only",
+  "animations": {
+    "idle": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 39,
+      "durationMs": 1800,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 39,
+      "frameDurationsMs": [
+        40,
+        50
+      ],
+      "gifSHA256": "ca06161bc99fa69cd7ca89fc76d028954741eed85e976f5afcf7121797531e6e",
+      "deliveredBytesPreserved": true
+    },
+    "thinking": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 56,
+      "durationMs": 2400,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 56,
+      "frameDurationsMs": [
+        40,
+        50
+      ],
+      "gifSHA256": "7468b50e7c2058893ecdea82ad4864c88aaf1263cf3266b23de7bfde49b0b20e",
+      "deliveredBytesPreserved": true
+    },
+    "working": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 56,
+      "durationMs": 2000,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 56,
+      "frameDurationsMs": [
+        30,
+        40
+      ],
+      "gifSHA256": "563b5e92a5eab3c10d5ac8c0e5e811305a51496e326463bafe0e2468a2e4e2de",
+      "deliveredBytesPreserved": true
+    },
+    "waiting": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 56,
+      "durationMs": 2600,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 56,
+      "frameDurationsMs": [
+        40,
+        50
+      ],
+      "gifSHA256": "a14fdc06b771f43c3c6231f98c3ab919ca1143e29ef2c7b62094650fed3d9e87",
+      "deliveredBytesPreserved": true
+    },
+    "done": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 56,
+      "durationMs": 2000,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 56,
+      "frameDurationsMs": [
+        30,
+        40
+      ],
+      "gifSHA256": "5cd718e5dc1017710cc3e17efdf638ba25ebab01b0d9fd73c71abcbdefbafd2b",
+      "deliveredBytesPreserved": true
+    },
+    "error": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 56,
+      "durationMs": 2500,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 56,
+      "frameDurationsMs": [
+        40,
+        50
+      ],
+      "gifSHA256": "1c34fc5c45382ed60da0a3ef6a5489c15885e27961a6a28af7eb923b6fa4cf0b",
+      "deliveredBytesPreserved": true
+    },
+    "idle-rare": {
+      "animated": true,
+      "width": 512,
+      "height": 512,
+      "frames": 107,
+      "durationMs": 4200,
+      "contentTop": 0.078125,
+      "loop": 0,
+      "transparentBorderEveryFrame": true,
+      "distinctFrames": 107,
+      "frameDurationsMs": [
+        30,
+        40
+      ],
+      "gifSHA256": "27c8959b32efc7cfb7ddde2185ebb116b79c023e403b6f1e49634f9163247011",
+      "deliveredBytesPreserved": true
+    }
+  },
+  "pack": {
+    "version": "1.0.0",
+    "path": "dist/characters/hyouka/umeko-pet-eru-chitanda-1.0.0.zip",
+    "sha256": "29cef77b104af9b622f258584d5d4c453f0a0893bfc55d4f52e5761a1745fb5f",
+    "bytes": 23312373
+  },
+  "actualHostImport": {
+    "passed": true,
+    "module": "app/pet_packs.py",
+    "sourceCommit": "783057cdb970ad61bf1d374b1b3bddc4c743c8dd",
+    "personaCharacters": 564,
+    "personaPreserved": true
+  },
+  "pythonQMovie": {
+    "passed": true,
+    "platform": "xcb",
+    "visibleWindow": true,
+    "framesObserved": {
+      "light": {
+        "idle": 79,
+        "thinking": 116,
+        "working": 117,
+        "waiting": 116,
+        "done": 119,
+        "error": 116,
+        "idle-rare": 221
+      },
+      "dark": {
+        "idle": 78,
+        "thinking": 115,
+        "working": 116,
+        "waiting": 115,
+        "done": 119,
+        "error": 116,
+        "idle-rare": 220
+      }
+    },
+    "distinctFrameIndices": {
+      "light": {
+        "idle": 39,
+        "thinking": 56,
+        "working": 56,
+        "waiting": 56,
+        "done": 56,
+        "error": 56,
+        "idle-rare": 107
+      },
+      "dark": {
+        "idle": 39,
+        "thinking": 56,
+        "working": 56,
+        "waiting": 56,
+        "done": 56,
+        "error": 56,
+        "idle-rare": 107
+      }
+    },
+    "errors": []
+  },
+  "previewCategories": {
+    "hyouka": [
+      "eru-chitanda"
+    ],
+    "bangDream": [
+      "mutsumi-wakaba",
+      "sakiko-togawa",
+      "viola"
+    ],
+    "workingStateSwitchPassed": true
+  },
+  "existingPacksUnchanged": 6,
+  "cplusplusBuildPerformed": false
+}

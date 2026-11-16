@@ -98,6 +98,21 @@
       "download": "dist/characters/bang-dream/umeko-pet-viola-1.0.1.zip",
       "bytes": 25859033,
       "sha256": "85bbf880583c7e6ffca477807714023360e8ae04e3886e998459601b53337b85"
+    },
+    {
+      "id": "eru-chitanda",
+      "name": "千反田爱瑠",
+      "englishName": "Eru Chitanda",
+      "category": "characters",
+      "collection": "hyouka",
+      "version": "1.0.0",
+      "description": "温柔有礼、对日常细节充满好奇的古典部成员；七段透明循环动画，附爱瑠的人设与台词。",
+      "manifest": "pets/characters/hyouka/eru-chitanda/pet.json",
+      "preview": "preview/characters/hyouka/eru-chitanda.png",
+      "animation": "pets/characters/hyouka/eru-chitanda/idle.gif",
+      "download": "dist/characters/hyouka/umeko-pet-eru-chitanda-1.0.0.zip",
+      "bytes": 23312373,
+      "sha256": "29cef77b104af9b622f258584d5d4c453f0a0893bfc55d4f52e5761a1745fb5f"
     }
   ]
 }

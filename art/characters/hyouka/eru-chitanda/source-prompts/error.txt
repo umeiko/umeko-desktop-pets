@@ -1,0 +1,23 @@
+Create the error desktop-pet animation of Eru Chitanda for umeko-desktop. Output: error.gif. Target duration: 2.5 seconds. Primary image reference: character.png from this folder.
+
+CHARACTER
+Eru Chitanda (千反田える) from Hyouka. Long straight near-black hair with subtle cool purple highlights and soft separated bangs; very large violet eyes, a gentle curious expression. White long-sleeved sailor blouse with a dark navy collar and white trim, dark neckerchief, navy cuffs with white trim, dark navy pleated skirt, plain white knee-high socks and small dark brown loafers. No hair ornaments, ahoge, pigtails or animal features. Match the supplied character.png exactly.
+
+STYLE AND CONSISTENCY
+Rounded clean 2D anime desktop pet in the whale-girl style family: a big rounded head, compact approximately 2.2-head-tall body, slim short tapered legs and small shoes, warm dark outlines and soft cel shading. Preserve face, hairstyle, eye color, costume, head-to-body ratio and scale in every frame. Full body and all props stay inside the canvas with transparent safety margins. Keep the face and both shoes readable.
+
+ACTION
+A mild puzzled expression replaces the smile, with a tiny brow change and one small head tilt. Raise one hand slightly near the cheek as though reconsidering a clue, pause, blink and lower it. Relax into the original neutral expression by the end. No crying, panic or comic symbols.
+
+PROPS AND CONTROL FRAMES
+Only the single character is present. Do not add props, furniture, computer, book, symbols or particles. Use character.png as the common first and last control pose when the interface supports them.
+
+CAMERA AND LOOP
+Fixed camera, no pan, zoom, rotation or reframing. Keep both feet on the same baseline with no sliding. Use small natural continuous motions and gentle hair follow-through. The last pose and movement flow into the first without a jump or sudden reset. No extra fingers, malformed limbs, hairstyle changes, costume flicker, prop morphing, scenery, ground, cast shadow, text, logo or watermark.
+
+GENERATION AND DELIVERY
+Use a reference-guided native animation or image-to-video generation interface. Verify supported animation capabilities before generating; if there is no native motion generation, stop and report the missing capability. Never manufacture motion from a static image by translation, scaling, mesh warping, assembling poses, reversed replay or artificial crossfades.
+
+Prefer genuinely supported native transparent animation. If unavailable, generate a native continuous video against a completely flat saturated green #00FF00 background, retain the original video, then key only the background and export the real temporal frames to GIF. Avoid using key-green in any foreground prop. Preserve white blouse and socks, near-black hair and purple eyes; do not eat away hair strands or leave green halos. If transparency cannot be produced, identify the actual background and deliver the original animation.
+
+Final target: 512 x 512, transparent alpha-derived GIF with infinite looping. The requested duration is a target, not an invented API capability. Use supported parameters and report actual dimensions, frame count, frame timing, total duration, loop and transparency. Inspect the real animation and seam, not only a still contact sheet. For local acceptance, use a lightweight Python/QMovie playback preview; no C++ build or unrelated application tests.

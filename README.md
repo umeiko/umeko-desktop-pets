@@ -24,7 +24,15 @@
 
 三人各含六种常规状态及一段稀有待机，共 21 段 **512×512 透明循环 GIF**。动画来自独立 H3 原生视频生成后的绿幕/洋红幕抠像，打包时逐字节保留交付 GIF，不从单张静图制造动作。角色资源位于 `pets/characters/bang-dream/`，美术出处、实际生成提示词和人设依据见 [人物说明](pets/characters/README.md)。
 
-人物包 `1.0.1` 将工作状态更新为在实体笔记本电脑上打字，电脑与小桌贯穿整个循环。其余动作与人设保留。
+BanG Dream! 人物包 `1.0.1` 将工作状态更新为在实体笔记本电脑上打字，电脑与小桌贯穿整个循环。其余动作与人设保留。
+
+### Hyouka / 冰菓
+
+| 宠物 | 预览 | 下载 |
+| --- | --- | --- |
+| 千反田爱瑠 / Eru Chitanda | ![千反田爱瑠](preview/characters/hyouka/eru-chitanda.png) | [爱瑠 ZIP](dist/characters/hyouka/umeko-pet-eru-chitanda-1.0.0.zip) |
+
+爱瑠 `1.0.0` 包含待机、思考、工作、等待、完成、出错与稀有待机七段 **512×512 透明循环 GIF**。工作时在有支撑的小桌上使用实体笔记本电脑。独立生成的 H3 原生视频经绿幕抠像后交付，包内 GIF 保持原始交付字节。设计图、实际提示词、来源与校验记录保存在 [爱瑠美术目录](art/characters/hyouka/eru-chitanda/)。
 
 每个包已内嵌专属 `persona` 和互动台词。Python v0.7.3 支持导入这些动画及彩蛋；人设生效需要支持悬浮小助手 `persona` 字段的新版客户端（当前 `main` 已支持）。
 
@@ -46,7 +54,7 @@ python scripts/build_packs.py
 python -m http.server 43465 --bind 127.0.0.1
 ```
 
-仅重新打包人物 GIF、保留动物包原样时，使用 `python scripts/build_packs.py --characters-only`。这一步不重编码 GIF。预览页支持动物/人物分类、六种常规状态、人物彩蛋和浅深背景。
+仅重新打包人物 GIF、保留动物包原样时，使用 `python scripts/build_packs.py --characters-only`。这一步不重编码 GIF。预览页支持动物、人物、BanG Dream! 和 Hyouka 分类、六种常规状态、人物彩蛋和浅深背景。
 
 生成后用准备好 PySide6 的 Umeko Python 环境验证：
 
@@ -60,4 +68,4 @@ python scripts/validate_packs.py --desktop-source /path/to/umeko-desktop
 
 已验证的导出环境为 Pillow 11.1.0 / libwebp 1.5.0；相同环境下重复导出的 ZIP 校验值一致。更换编码器版本后可能需要更新校验值。
 
-本仓库原创动物资源与工具按 MIT 许可证提供。BanG Dream! 人物包属于非官方同人改编，原角色与系列权利归相应权利人；具体说明随包附在 `LICENSE.txt`，不以仓库 MIT 许可重新授予原角色权利。
+本仓库原创动物资源与工具按 MIT 许可证提供。BanG Dream! 与 Hyouka 人物包属于非官方同人改编，原角色与系列权利归相应权利人；具体说明随包附在 `LICENSE.txt`，不以仓库 MIT 许可重新授予原角色权利。

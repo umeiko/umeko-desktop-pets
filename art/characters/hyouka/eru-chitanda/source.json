@@ -1,0 +1,122 @@
+{
+  "id": "eru-chitanda",
+  "name": "千反田爱瑠",
+  "englishName": "Eru Chitanda",
+  "collection": "hyouka",
+  "franchise": "Hyouka",
+  "deliveredAt": "2026-11-16T15:12:21.703170+00:00",
+  "status": "seven-animations-delivered",
+  "design": {
+    "generatedBy": "built-in image_gen",
+    "images": {
+      "neutral": {
+        "filename": "character.png",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "nontransparentBounds": [
+          33,
+          29,
+          1136,
+          1214
+        ],
+        "sha256": "b3b42cba4d68b18387e73d1b7a8494f92b6f4f95b9453fa341c9e3aaeb0723f4",
+        "generatedBy": "built-in image_gen",
+        "visibleAlphaThreshold": 8,
+        "visibleBounds": [
+          301,
+          106,
+          954,
+          1193
+        ]
+      },
+      "working": {
+        "filename": "working-reference.png",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "nontransparentBounds": [
+          0,
+          23,
+          1234,
+          1254
+        ],
+        "sha256": "664f2c51e0295ba74277249e13960973a5b0f6b135e8816146fb87803243c134",
+        "generatedBy": "built-in image_gen",
+        "visibleAlphaThreshold": 8,
+        "visibleBounds": [
+          294,
+          96,
+          962,
+          1202
+        ]
+      }
+    },
+    "officialReferences": [
+      "https://kotenbu.com/chara/eru.html",
+      "https://www.kyotoanimation.co.jp/kotenbu/character/",
+      "https://www.bs11.jp/anime/hyouka/"
+    ],
+    "characterPrompt": "character-prompt.txt",
+    "workingReferencePrompt": "working-reference-prompt.txt"
+  },
+  "animation": {
+    "model": "MiniMax H3",
+    "interface": "Local ComfyUI FL2V workflow",
+    "workflow": "Independent native four-step videos, green-screen keying to transparent GIF",
+    "gifTiming": "Native forward frame order retained; frame delays retimed to target loop durations",
+    "animationPrompts": "animation-prompts.json",
+    "gifBytesPreserved": true,
+    "noStaticMotionSubstitute": true,
+    "sourceReceiptSHA256": "cb90142823a32ae9855fd861b163096c54cf48104f4a7883349669cbcd4aa9c0"
+  },
+  "persona": {
+    "prompt": "persona.txt",
+    "fragment": "persona.json",
+    "notes": "persona-notes.txt",
+    "dialogue": "dialogue.json",
+    "characters": 564,
+    "copiedUnchanged": true
+  },
+  "deliveryFiles": {
+    "LICENSE.txt": "2648b412173a1e5358ead038fa630d05a92f679e5398687cc4dde546ad344a85",
+    "animation-prompts.json": "f86dbe47f14c36eafa61e9c31d001f35be58e83e8755fb0670228567738ed117",
+    "character-prompt.txt": "6e8e73e33916b9631e93b8ceae05100de79871bcae7aaea5cf4f1008adfe3cb7",
+    "character.png": "b3b42cba4d68b18387e73d1b7a8494f92b6f4f95b9453fa341c9e3aaeb0723f4",
+    "control-frames/neutral-green-512.png": "aa92aede9306174b202b9cf0d4288de8ab26a10b3b40f7ca0e66e9c5a365dd52",
+    "control-frames/working-green-512.png": "9b6d61fcd29e775728095df3f86b67cd0f31144ca3771ebd1cd5960dfa884748",
+    "dialogue.json": "63ef84abb4c7ca42aae5f124f2fb6055758ae45050d9517260245a9a2faba972",
+    "persona-notes.txt": "1fa4bda74db4598696ba1f716306f6155141fed43cd5765f6c1fdb3f69e4e8b4",
+    "persona.json": "96fd190d3785ecd60a9d65c23f006d92c409960c4310f2ab0206a305c1bb9b3b",
+    "persona.txt": "3e00183cf06028300e711eca141e67bf1131e28ce4e5fb15871383b65f13f289",
+    "prompts/done.txt": "a647eb79a33b9536062c9b91dc9d534a7a768d2342f4d4a17c42dbd0df0aa0e4",
+    "prompts/error.txt": "05618d3f1d0a94b79b460979839936adab3cc4e05944d6f5bd170c3931f29d49",
+    "prompts/idle-rare.txt": "5f30902226eb59984d74ba359373cd9268cb8cd560644440b2643c2b167d05ab",
+    "prompts/idle.txt": "07c3af16f1179857d4c8aa185cfe25f7f7e3a5a5df4cf428c8005130adb6741c",
+    "prompts/thinking.txt": "37344f2b935b4d0f3ff0c8493dd55f73da53d14bd044c1038a1fe1e81a1bc740",
+    "prompts/waiting.txt": "1c7e0c748bb5da69f2a31e23a315fef858a5a837f9ac5c181a8015d9f8606b3a",
+    "prompts/working.txt": "679601137c929b2f9d8530d443cffc7e10e08bb1621ad4e5c00f99edc7ede351",
+    "source-prompts/done.txt": "03cb4c3082f8d1b3c85a247645f1b759edc46a4946460256a943945fe8b59fd4",
+    "source-prompts/error.txt": "04deceba1639f950494ac36a97474b6c28238b5f7dc157f69236c2a663a48ca6",
+    "source-prompts/idle-rare.txt": "47de5f808a3f3e5e5a880b2ce51728d265a348c43b5c3901081755d4cfe3e05d",
+    "source-prompts/idle.txt": "0a7c935c4b920c967be9a014b4031354a5d302bd1fa2f4ffc50f431f90b883c1",
+    "source-prompts/thinking.txt": "f49e3fad607d228ad3ebc5705925c8be6b3e10994892d429ae12ba3786748444",
+    "source-prompts/waiting.txt": "3f8a998e0c0504f1418ceb6faa7c46067760cbf251d6c145a65a48795a9b0ddc",
+    "source-prompts/working.txt": "614e4da22d143ac451c66e8c3952226825b420aa971bc5c89a8860d9dc40a370",
+    "working-reference-prompt.txt": "c53eed4a21d6112a753a94b9e8984671ba942ba3100545036bcdcb3941cdc4ee",
+    "working-reference.png": "664f2c51e0295ba74277249e13960973a5b0f6b135e8816146fb87803243c134"
+  },
+  "producerVerification": {
+    "pythonQMoviePlaybackPassed": true,
+    "nativeVideoCount": 7,
+    "allNativeFramesForwardOrder": true
+  }
+}

@@ -29,3 +29,11 @@
 - [薇欧拉资料](../../art/characters/bang-dream/viola/persona-notes.txt)
 
 同目录中的 `source.json` 和 `animation-prompts.json` 保存出处、原片与 GIF 校验值、采样配置及最终采用的生成提示词。包内台词是原创适配，不是官方逐字台词。
+
+## Hyouka / 冰菓
+
+`hyouka/eru-chitanda/` 收录千反田爱瑠，路径和文件名均为英文。下载 [爱瑠 1.0.0 ZIP](../../dist/characters/hyouka/umeko-pet-eru-chitanda-1.0.0.zip) 即可导入；温柔、有礼、认真好奇的人设与原创互动台词已内嵌。
+
+七段动画的帧数与总时长与上表一致，均为 512×512、透明背景、无限循环。工作状态从头到尾使用实体笔记本与有双腿支撑的小桌。原生 H3 四步 FL2V 视频独立生成，绿幕抠像后按目标时长分配 GIF 帧延迟，保留原生帧顺序；本仓库逐字节复制正式交付 GIF。
+
+[爱瑠美术目录](../../art/characters/hyouka/eru-chitanda/) 保存两张设计图、实际控制帧、初始与最终提示词、人设及来源说明。`source.json` 和 `animation-prompts.json` 记录生成方法、原片与 GIF 的 SHA256；`validation.json` 记录多帧、透明、时长与实际宿主导入及 Python 播放结果。原生 MP4 留存在制作交付目录，不重复放入导入包。
