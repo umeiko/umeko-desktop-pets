@@ -4,7 +4,7 @@
   "id": "sakiko-togawa",
   "name": "丰川祥子",
   "englishName": "Sakiko Togawa",
-  "packVersion": "1.0.0",
+  "packVersion": "1.0.1",
   "collection": "bang-dream",
   "franchise": "BanG Dream!",
   "author": "Umeko contributors",
@@ -41,7 +41,7 @@
       "height": 512,
       "frames": 56,
       "durationMs": 2000,
-      "contentTop": 0.07421875
+      "contentTop": 0.078125
     },
     "waiting.gif": {
       "animated": true,

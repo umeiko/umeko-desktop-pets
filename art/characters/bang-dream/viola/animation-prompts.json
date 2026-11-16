@@ -38,11 +38,13 @@
     "gif_filename": "thinking.gif"
   },
   "WORKING": {
-    "revision": "r0001",
-    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. She lowers her hand from her chin, brings both hands neatly together in front of her waist, looks down with focused self-assurance and makes two small precise fingertip organizing gestures. She gives a tiny approving nod and returns her hand to the original chin pose. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
-    "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
-    "source_sha256": "dbdacfa548c14cca291600bb9406c9fe6cea96f8a70935bfd3f93ad981a7f3d2",
+    "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical working image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] Clean polished two-dimensional chibi anime animation of the exact reference girl, preserving her face shape, large rounded head, tiny body, slim short legs, hairstyle, eye colors, hair accessories and every costume detail. She is already working on the clearly visible small open silver-gray laptop resting firmly on the compact pale blue-gray two-legged desk in Picture 1. The distinct dark keyboard keys, keyboard deck, open display housing and both hands are readable from this slightly angled front view. Both hands stay on the real keyboard in the same ongoing typing position. Her fingertips make tiny alternating key presses with believable contact: left fingertips press and release, then right fingertips press and release, smoothly repeating with wrists resting close to the keyboard. Her gaze stays directed toward the laptop screen, with gentle breathing and one natural brief blink. She has a relaxed self-assured little closed-lip smile. The laptop, hinge, keyboard, desk surface and two supporting legs keep their exact reference shape, position and size throughout; all these props are present continuously from the first frame through the last frame. The loop begins and ends in the same ongoing typing pose. Her entire face, collar or bow, shoes and the desk feet remain clearly visible. Fixed512x512 square camera and fixed character scale, hair top near8 percent and shoe soles near89 percent, both feet steadily planted. The single girl, laptop and supporting desk are the complete foreground cutout. The display housing is plain and unmarked. Background remains a perfectly uniform saturated magenta #FF00FF.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "14c779cd8210866b1b7b5c7c95ef1837e8d6d19f3725ffc89c31fdfce85d6c7a",
+    "source_sha256": "962593e621d4163ac406bea6ad462159951f50d34eaa74a3eba007fe1c81adb9",
+    "revision": "r0002",
     "native_frames": 56,
+    "native_fps": 24,
+    "same_first_last_control_frame": true,
     "sampling_preset": {
       "schema": "h3_sampling_v1",
       "steps": 4,
@@ -54,7 +56,8 @@
       "shift_audio": 3.0,
       "strength_model": 1.0
     },
-    "gif_filename": "working.gif"
+    "gif_filename": "working.gif",
+    "control_frame": "working-control-frame.png"
   },
   "WAITING": {
     "revision": "r0001",

@@ -38,11 +38,13 @@
     "gif_filename": "thinking.gif"
   },
   "WORKING": {
-    "revision": "r0001",
-    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. She looks a little downward with quiet concentration, gently separates her hands at waist height and performs a short sequence of tiny measured fingertip movements. She gives a barely perceptible nod, settles her fingers and brings her hands together again. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
-    "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
-    "source_sha256": "96423ce2c02f18b173589f281c1ea0efb4c5e0a7414a7690354478dfb958091b",
+    "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical working image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] Clean polished two-dimensional chibi anime animation of the exact reference girl, preserving her face shape, large rounded head, tiny body, slim short legs, hairstyle, eye colors, hair accessories and every costume detail. She is already working on the clearly visible small open silver-gray laptop resting firmly on the compact pale blue-gray two-legged desk in Picture 1. The distinct dark keyboard keys, keyboard deck, open display housing and both hands are readable from this slightly angled front view. Both hands stay on the real keyboard in the same ongoing typing position. Her fingertips make tiny alternating key presses with believable contact: left fingertips press and release, then right fingertips press and release, smoothly repeating with wrists resting close to the keyboard. Her gaze stays directed toward the laptop screen, with gentle breathing and one natural brief blink. Her movements are quiet, small and gentle. The laptop, hinge, keyboard, desk surface and two supporting legs keep their exact reference shape, position and size throughout; all these props are present continuously from the first frame through the last frame. The loop begins and ends in the same ongoing typing pose. Her entire face, collar or bow, shoes and the desk feet remain clearly visible. Fixed512x512 square camera and fixed character scale, hair top near8 percent and shoe soles near89 percent, both feet steadily planted. The single girl, laptop and supporting desk are the complete foreground cutout. The display housing is plain and unmarked. Background remains a perfectly uniform saturated magenta #FF00FF.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "605dfd50fd50102939b3e700073c01a88b85f417e2d1ca76525f146de0afc1ab",
+    "source_sha256": "426f7ca0fc3bf0bda664a58404fc8573921f17c25ed4ea44b2f57092117dd70e",
+    "revision": "r0002",
     "native_frames": 56,
+    "native_fps": 24,
+    "same_first_last_control_frame": true,
     "sampling_preset": {
       "schema": "h3_sampling_v1",
       "steps": 4,
@@ -54,7 +56,8 @@
       "shift_audio": 3.0,
       "strength_model": 1.0
     },
-    "gif_filename": "working.gif"
+    "gif_filename": "working.gif",
+    "control_frame": "working-control-frame.png"
   },
   "WAITING": {
     "revision": "r0001",

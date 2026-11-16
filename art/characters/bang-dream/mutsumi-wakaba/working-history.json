@@ -1,0 +1,44 @@
+{
+  "revisions": [
+    {
+      "packVersion": "1.0.0",
+      "supersededReason": "Replaced air typing with a visible laptop and supporting desk.",
+      "generation": {
+        "revision": "r0001",
+        "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Mutsumi Wakaba from BanG Dream!. Long pale mint/sage-green hair, straight divided fringe, warm amber-gold eyes with a calm almost-neutral expression. Dark navy plaid long-sleeved dress, ivory scalloped bib and cuffs, small dark buttons, tiny muted teal neck bow, dark neck ribbon, restrained waist detail and ruffled skirt hem, ivory ankle socks, brown Mary Jane shoes. Quiet, reserved and gentle. Use the exact casual outfit in character.png. She looks a little downward with quiet concentration, gently separates her hands at waist height and performs a short sequence of tiny measured fingertip movements. She gives a barely perceptible nod, settles her fingers and brings her hands together again. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+        "input_sha256": "7270d7cb9f34463926358585e8a4d547bb56d9342cd1511c515b080cd4623c53",
+        "source_sha256": "96423ce2c02f18b173589f281c1ea0efb4c5e0a7414a7690354478dfb958091b",
+        "native_frames": 56,
+        "sampling_preset": {
+          "schema": "h3_sampling_v1",
+          "steps": 4,
+          "sampler": "euler",
+          "scheduler": "simple",
+          "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+          "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+          "shift_video": 6.0,
+          "shift_audio": 3.0,
+          "strength_model": 1.0
+        },
+        "gif_filename": "working.gif"
+      },
+      "gif": {
+        "name": "working.gif",
+        "sha256": "4bc98ba4133f82128a0a938515e39c515ab1633a91ab57a599e2cf7ee3f79871",
+        "frames": 56,
+        "milliseconds": 2000,
+        "loop": 0,
+        "all_frames_border_transparent": true,
+        "disposal": 2,
+        "bbox_union": [
+          110,
+          40,
+          404,
+          456
+        ],
+        "bottom_min": 456,
+        "bottom_max": 456
+      }
+    }
+  ]
+}

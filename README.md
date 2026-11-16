@@ -18,11 +18,13 @@
 
 | 宠物 | 预览 | 下载 |
 | --- | --- | --- |
-| 丰川祥子 / Sakiko Togawa | ![丰川祥子](preview/characters/bang-dream/sakiko-togawa.png) | [祥子 ZIP](dist/characters/bang-dream/umeko-pet-sakiko-togawa-1.0.0.zip) |
-| 若叶睦 / Mutsumi Wakaba | ![若叶睦](preview/characters/bang-dream/mutsumi-wakaba.png) | [睦 ZIP](dist/characters/bang-dream/umeko-pet-mutsumi-wakaba-1.0.0.zip) |
-| 薇欧拉 / Viola | ![薇欧拉](preview/characters/bang-dream/viola.png) | [薇欧拉 ZIP](dist/characters/bang-dream/umeko-pet-viola-1.0.0.zip) |
+| 丰川祥子 / Sakiko Togawa | ![丰川祥子](preview/characters/bang-dream/sakiko-togawa.png) | [祥子 ZIP](dist/characters/bang-dream/umeko-pet-sakiko-togawa-1.0.1.zip) |
+| 若叶睦 / Mutsumi Wakaba | ![若叶睦](preview/characters/bang-dream/mutsumi-wakaba.png) | [睦 ZIP](dist/characters/bang-dream/umeko-pet-mutsumi-wakaba-1.0.1.zip) |
+| 薇欧拉 / Viola | ![薇欧拉](preview/characters/bang-dream/viola.png) | [薇欧拉 ZIP](dist/characters/bang-dream/umeko-pet-viola-1.0.1.zip) |
 
 三人各含六种常规状态及一段稀有待机，共 21 段 **512×512 透明循环 GIF**。动画来自独立 H3 原生视频生成后的绿幕/洋红幕抠像，打包时逐字节保留交付 GIF，不从单张静图制造动作。角色资源位于 `pets/characters/bang-dream/`，美术出处、实际生成提示词和人设依据见 [人物说明](pets/characters/README.md)。
+
+人物包 `1.0.1` 将工作状态更新为在实体笔记本电脑上打字，电脑与小桌贯穿整个循环。其余动作与人设保留。
 
 每个包已内嵌专属 `persona` 和互动台词。Python v0.7.3 支持导入这些动画及彩蛋；人设生效需要支持悬浮小助手 `persona` 字段的新版客户端（当前 `main` 已支持）。
 

@@ -54,16 +54,16 @@
     },
     {
       "name": "working.gif",
-      "sha256": "d544f6ef8c8c6e77a1922294b1b1d163ef24818fa0225c24725258fd3ddca87e",
+      "sha256": "20b0ac176cbddf683a5eb24dc8780cd99b37340f02d891fbf379b487b6c117c5",
       "frames": 56,
       "milliseconds": 2000,
       "loop": 0,
       "all_frames_border_transparent": true,
       "disposal": 2,
       "bbox_union": [
-        92,
-        38,
-        418,
+        106,
+        40,
+        406,
         456
       ],
       "bottom_min": 456,
@@ -141,7 +141,7 @@
   "nativeVideoSha256": {
     "idle.mp4": "c3fcd543f11cec7eb091e4ac5802231c3b610a623dae79dd23883c69269038b2",
     "thinking.mp4": "3a6809e27b918430779685cc25d6bd6fbeb7eb42b99dbae1ad28cfba609c7add",
-    "working.mp4": "c3c1cacb794ce99c4834c2be9df539da05f31e4a34987ae08ffb554b7cacae5c",
+    "working.mp4": "4e591b63fa43e7c4ff50df2194899e58160b842b85189e1c7077b0562640c176",
     "waiting.mp4": "d50943e72f9df3f1cf5983ff29a1f6327f9aa277e282a9ae3be6bd32073c81f0",
     "done.mp4": "f0de31447b12a2b6c7551d8d60de8712603f9d8a5e012d6e1e1a84fb25be7504",
     "error.mp4": "ec29efb1033ef06f06b35588a1ff24c2d63f8531c569106c2da576930b3914b5",
@@ -149,5 +149,18 @@
   },
   "personaLanguage": "zh-CN",
   "personaCharacters": 582,
-  "personaSha256": "62ab050606253614590406581cd0882c901741e7a2acaf979be08a2a126cf938"
+  "personaSha256": "62ab050606253614590406581cd0882c901741e7a2acaf979be08a2a126cf938",
+  "updated": "2026-11-16",
+  "updates": [
+    {
+      "packVersion": "1.0.1",
+      "state": "working",
+      "revision": "r0002",
+      "change": "Visible laptop and supporting desk, continuous typing contact.",
+      "controlFrame": "working-control-frame.png",
+      "controlFrameSha256": "0b097cc427d4fc61f0d23d3050d0cffe1c65b633e6a4925f9ffa6cbb2e5601d0",
+      "controlFrameGenerator": "built-in image_gen",
+      "previousVersionRecord": "working-history.json"
+    }
+  ]
 }

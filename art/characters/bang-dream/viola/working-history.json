@@ -1,0 +1,44 @@
+{
+  "revisions": [
+    {
+      "packVersion": "1.0.0",
+      "supersededReason": "Replaced air typing with a visible laptop and supporting desk.",
+      "generation": {
+        "revision": "r0001",
+        "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Viola from BanG Dream! YUME-MITA / Fairy Bouquet, specifically the character in character.png. Dark olive/forest-green long hair, blunt cheek-length hime-cut side locks and fringe, distinctive small bun on the viewer-right side, pale metallic angled hairpins on the viewer-right bangs, light olive-gray-green eyes and the small beauty mark beside the mouth. Charcoal-plum school jacket and pleated skirt, cream decorative chest yoke, gray-lilac collar and cuffs, muted gold piping, floral crest and four square waist buttons, charcoal ankle socks and olive-taupe loafers. Sweet polished charm with a subtly knowing smile. She lowers her hand from her chin, brings both hands neatly together in front of her waist, looks down with focused self-assurance and makes two small precise fingertip organizing gestures. She gives a tiny approving nod and returns her hand to the original chin pose. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated magenta #FF00FF background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+        "input_sha256": "a85c4e41056238c0ef8c00f8eb3e4b057c7da9e4ef7ebc69afbc74c1ad15aea5",
+        "source_sha256": "dbdacfa548c14cca291600bb9406c9fe6cea96f8a70935bfd3f93ad981a7f3d2",
+        "native_frames": 56,
+        "sampling_preset": {
+          "schema": "h3_sampling_v1",
+          "steps": 4,
+          "sampler": "euler",
+          "scheduler": "simple",
+          "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+          "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+          "shift_video": 6.0,
+          "shift_audio": 3.0,
+          "strength_model": 1.0
+        },
+        "gif_filename": "working.gif"
+      },
+      "gif": {
+        "name": "working.gif",
+        "sha256": "3bcf01305c56c3bf2d22980a042653958d0919cfd39e26d134207f52cadd5dd9",
+        "frames": 56,
+        "milliseconds": 2000,
+        "loop": 0,
+        "all_frames_border_transparent": true,
+        "disposal": 2,
+        "bbox_union": [
+          112,
+          40,
+          408,
+          456
+        ],
+        "bottom_min": 456,
+        "bottom_max": 456
+      }
+    }
+  ]
+}

@@ -38,11 +38,13 @@
     "gif_filename": "thinking.gif"
   },
   "WORKING": {
-    "revision": "r0001",
-    "prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact single character in Picture 1. Sakiko Togawa from BanG Dream!. Long powder-blue hair with blue-violet shadows, narrow temple braids, low side sections tied with dark ribbon bows, softly curled ends, golden amber eyes. Ivory long-sleeved blouse with fine black collar bow and small gold buttons, dark waistband, gray diagonal-plaid flared skirt, short white frilled socks, black Mary Jane shoes. Refined, composed, slightly proud. Use the exact casual outfit in character.png. From her resting pose she lowers her gaze in concentration, brings both hands a little forward at waist height and makes two tiny alternating fingertip motions. She gives one restrained rhythmic nod, relaxes both hands and returns them to the reference resting pose. The scene contains only the standing character. Fixed 512x512 square camera, full body centered. Preserve the original large rounded head, small body, slim short legs, warm clean 2D anime outlines, simple cel shading and exact colors. The hair top stays near 8 percent and shoe soles near 89 percent of canvas height, about 81 percent tall. Both feet remain planted and body scale fixed. Small continuous motions with smooth easing, gentle hair follow-through, ending in the original stance and movement direction for a natural loop. A flat uniform pure saturated green #00FF00 background. The character is the complete foreground subject, with clean unmarked empty margins.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
-    "input_sha256": "57af526224b1268d8cb57f395ea1ebd8695e881e7c5b0d9db84f7e905c0f8f10",
-    "source_sha256": "c3c1cacb794ce99c4834c2be9df539da05f31e4a34987ae08ffb554b7cacae5c",
+    "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical working image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] Clean polished two-dimensional chibi anime animation of the exact reference girl, preserving her face shape, large rounded head, tiny body, slim short legs, hairstyle, eye colors, hair accessories and every costume detail. She is already working on the clearly visible small open silver-gray laptop resting firmly on the compact pale blue-gray two-legged desk in Picture 1. The distinct dark keyboard keys, keyboard deck, open display housing and both hands are readable from this slightly angled front view. Both hands stay on the real keyboard in the same ongoing typing position. Her fingertips make tiny alternating key presses with believable contact: left fingertips press and release, then right fingertips press and release, smoothly repeating with wrists resting close to the keyboard. Her gaze stays directed toward the laptop screen, with gentle breathing and one natural brief blink. Her manner is upright, composed and precise. The laptop, hinge, keyboard, desk surface and two supporting legs keep their exact reference shape, position and size throughout; all these props are present continuously from the first frame through the last frame. The loop begins and ends in the same ongoing typing pose. Her entire face, collar or bow, shoes and the desk feet remain clearly visible. Fixed512x512 square camera and fixed character scale, hair top near8 percent and shoe soles near89 percent, both feet steadily planted. The single girl, laptop and supporting desk are the complete foreground cutout. The display housing is plain and unmarked. Background remains a perfectly uniform saturated green #00FF00.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "input_sha256": "0b097cc427d4fc61f0d23d3050d0cffe1c65b633e6a4925f9ffa6cbb2e5601d0",
+    "source_sha256": "4e591b63fa43e7c4ff50df2194899e58160b842b85189e1c7077b0562640c176",
+    "revision": "r0002",
     "native_frames": 56,
+    "native_fps": 24,
+    "same_first_last_control_frame": true,
     "sampling_preset": {
       "schema": "h3_sampling_v1",
       "steps": 4,
@@ -54,7 +56,8 @@
       "shift_audio": 3.0,
       "strength_model": 1.0
     },
-    "gif_filename": "working.gif"
+    "gif_filename": "working.gif",
+    "control_frame": "working-control-frame.png"
   },
   "WAITING": {
     "revision": "r0001",

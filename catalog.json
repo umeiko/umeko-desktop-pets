@@ -60,14 +60,14 @@
       "englishName": "Mutsumi Wakaba",
       "category": "characters",
       "collection": "bang-dream",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "安静、细腻的 Ave Mujica 吉他手；七段原生视频衍生透明动画，默认睦的日常状态。",
       "manifest": "pets/characters/bang-dream/mutsumi-wakaba/pet.json",
       "preview": "preview/characters/bang-dream/mutsumi-wakaba.png",
       "animation": "pets/characters/bang-dream/mutsumi-wakaba/idle.gif",
-      "download": "dist/characters/bang-dream/umeko-pet-mutsumi-wakaba-1.0.0.zip",
-      "bytes": 27059411,
-      "sha256": "43f309a878333ab59a495532785bf5e91bed3b2b11143f45f8296ca35335754b"
+      "download": "dist/characters/bang-dream/umeko-pet-mutsumi-wakaba-1.0.1.zip",
+      "bytes": 27077683,
+      "sha256": "b3e579319b04356c7c900ded8d9457f91b2c9b27a5575fd40570e43005b304e5"
     },
     {
       "id": "sakiko-togawa",
@@ -75,14 +75,14 @@
       "englishName": "Sakiko Togawa",
       "category": "characters",
       "collection": "bang-dream",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "端正而坚定的 Ave Mujica 键盘手；七段原生视频衍生透明动画，附祥子的人设与台词。",
       "manifest": "pets/characters/bang-dream/sakiko-togawa/pet.json",
       "preview": "preview/characters/bang-dream/sakiko-togawa.png",
       "animation": "pets/characters/bang-dream/sakiko-togawa/idle.gif",
-      "download": "dist/characters/bang-dream/umeko-pet-sakiko-togawa-1.0.0.zip",
-      "bytes": 29809228,
-      "sha256": "81aed9f58a37d6ce3dd74d9a93fe99ec9f8e63d563d75c7375d96265aaf73c65"
+      "download": "dist/characters/bang-dream/umeko-pet-sakiko-togawa-1.0.1.zip",
+      "bytes": 29799734,
+      "sha256": "fa61057852dd177e4eadecddbb7e9c9120d7fd514dc7bead24d4bf39fe91f4a1"
     },
     {
       "id": "viola",
@@ -90,14 +90,14 @@
       "englishName": "Viola",
       "category": "characters",
       "collection": "bang-dream",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "《BanG Dream! YUME∞MITA》中笑意柔和、话里藏锋的少女；七段透明动画与专属桌宠人设。",
       "manifest": "pets/characters/bang-dream/viola/pet.json",
       "preview": "preview/characters/bang-dream/viola.png",
       "animation": "pets/characters/bang-dream/viola/idle.gif",
-      "download": "dist/characters/bang-dream/umeko-pet-viola-1.0.0.zip",
-      "bytes": 25921230,
-      "sha256": "64f41b031992628f857054a912e8a40c9ee1bd6171ac0434ecf56d5c3972a1f1"
+      "download": "dist/characters/bang-dream/umeko-pet-viola-1.0.1.zip",
+      "bytes": 25859033,
+      "sha256": "85bbf880583c7e6ffca477807714023360e8ae04e3886e998459601b53337b85"
     }
   ]
 }
