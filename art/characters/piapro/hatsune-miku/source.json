@@ -1,0 +1,53 @@
+{
+  "characterRevision": "character-r3",
+  "animationRevision": "idle-r3",
+  "publishedStates": [
+    "idle"
+  ],
+  "characterSHA256": "5340ea364381fece39081c2229688e792bdf7dccd32e32ae9a1e4c9317a945a7",
+  "gifSHA256": "cb4a2b1be90de0655a8bf394d1aedef76a58e7d7ea387720688067b44b63c2eb",
+  "nativeVideoSHA256": "63100b2cfa71aa27b66bbebdd63ecef5917653c56b6b7605c52937bf4505782c",
+  "deliveryFingerprint": "63a7f112602fe7f9d8377862dee2f97dad3c2eafb076ef13311cc681f2211023",
+  "characterGenerationInterface": "image_gen.imagegen",
+  "characterGenerationModel": "not exposed by tool",
+  "styleReference": {
+    "name": "whale girl",
+    "localSource": "/media/umeko/DATA/umeko-agents/piapro/references/style-whale-girl.png",
+    "sha256": "c1863787d63a9540a0a1e9d30e23984aaf7ee24c3d33f69204dc2f469383710e",
+    "license": "whale-girl-license.txt"
+  },
+  "animationModel": "MiniMax H3 FL2VA native Turbo4",
+  "animationInterface": "local ComfyUI REST prompt submission",
+  "finalActualPrompt": "production/idle-actual-prompt.txt",
+  "allSubmittedText": "production/all-submitted-text.json",
+  "negativePrompt": "",
+  "nativeVideo": "production/idle-native.mp4",
+  "nativeFPS": 24,
+  "nativeFrames": 39,
+  "nativeDurationMs": 1625,
+  "gif": {
+    "repositoryPath": "pets/characters/piapro/hatsune-miku/idle.gif",
+    "frames": 39,
+    "size": [
+      512,
+      512
+    ],
+    "durationMs": 1800,
+    "loop": 0,
+    "frameDelaysMs": [
+      40,
+      50
+    ],
+    "transparent": true,
+    "transparencyMethod": "blue chroma key with edge cleanup; not native alpha",
+    "allNativeFramesInForwardOrder": true,
+    "deliveredBytesPreserved": true
+  },
+  "acceptance": "acceptance.json",
+  "hostImportValidationSource": {
+    "repository": "https://github.com/umeiko/umeko-desktop",
+    "commit": "0d190d437f97782374f5060dc3bb67b35ab412c9",
+    "module": "app/pet_packs.py"
+  },
+  "historicalRecords": "production records and pre-acceptance playback logs retain their original pending-acceptance fields; acceptance.json records the subsequent user approval."
+}

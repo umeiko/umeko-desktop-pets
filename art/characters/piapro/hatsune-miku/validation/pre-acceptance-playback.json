@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "revision": "idle-r3",
+  "checkedStates": [
+    "idle"
+  ],
+  "oldStatesIncluded": false,
+  "method": "Python edition DesktopPet + original DesktopPetWindow.qml AnimatedImage",
+  "display": ":10.0",
+  "platform": "xcb",
+  "visible": true,
+  "framesObserved": {
+    "idle": 39
+  },
+  "cycles": {
+    "idle": 4
+  },
+  "warnings": [],
+  "profile": "/home/umeko/.local/state/umeko/acceptance/piapro-miku-20261116/profile-idle-r3",
+  "animationAccepted": false
+}

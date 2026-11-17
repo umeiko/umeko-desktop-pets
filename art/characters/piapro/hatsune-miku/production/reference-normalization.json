@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-17T00:09:14.707656+00:00",
+  "source": "/media/umeko/DATA/umeko-agents/piapro/hatsune-miku/revisions/character-r3/character.png",
+  "source_sha256": "5340ea364381fece39081c2229688e792bdf7dccd32e32ae9a1e4c9317a945a7",
+  "original_size": [
+    1254,
+    1254
+  ],
+  "original_alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_crop_threshold": 8,
+  "crop": [
+    193,
+    204,
+    1062,
+    1122
+  ],
+  "normalized": "/media/umeko/DATA/video_gen_ws/piapro_miku_pet_states_20261116/idle_r3_new_master_20261116/assets/new_master_blue_512.png",
+  "normalized_sha256": "7a482066ac943369aa82cda855080643cbb4ff98c5ef3515598072b86281a6cc",
+  "canvas": [
+    512,
+    512
+  ],
+  "foreground_height": 416,
+  "top": 40,
+  "bottom": 456,
+  "key_color": "#0000FF",
+  "method": "Original new-master RGBA pixels cropped and uniformly resized/composited; no redraw",
+  "old_master_or_control_reused": false
+}

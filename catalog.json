@@ -113,6 +113,21 @@
       "download": "dist/characters/hyouka/umeko-pet-eru-chitanda-1.0.0.zip",
       "bytes": 23312373,
       "sha256": "29cef77b104af9b622f258584d5d4c453f0a0893bfc55d4f52e5761a1745fb5f"
+    },
+    {
+      "id": "hatsune-miku",
+      "name": "初音未来",
+      "englishName": "Hatsune Miku",
+      "category": "characters",
+      "collection": "piapro",
+      "version": "1.0.0",
+      "description": "公式服初音，大头小身的二维桌宠。1.0.0 为已验收的单待机版；其他状态回退显示待机，内嵌原创陪伴人设与台词。",
+      "manifest": "pets/characters/piapro/hatsune-miku/pet.json",
+      "preview": "preview/characters/piapro/hatsune-miku.png",
+      "animation": "pets/characters/piapro/hatsune-miku/idle.gif",
+      "download": "dist/characters/piapro/umeko-pet-hatsune-miku-1.0.0.zip",
+      "bytes": 3127420,
+      "sha256": "3b56d9f1a5c9adbd65a95d32ecba9642ee9c4421867f2a86b0f43545344c1112"
     }
   ]
 }

@@ -42,7 +42,9 @@ if __name__ == "__main__":
                     names.add(expected['rareIdle']['image'])
                 assert set(source.namelist()) == {'pet.json', 'LICENSE.txt', *names}
             pack = import_pack(archive, destination)
-            assert pack["id"] == entry["id"] and set(pack["states"]) == set(STATES)
+            assert pack["id"] == entry["id"]
+            assert set(pack["states"]) == set(expected["states"])
+            assert 'idle' in pack['states'] and set(pack['states']) <= set(STATES)
             # import_pack already fully decodes and checks the host constraints.
             checked = read_pack(destination / pack["id"])
             assert checked.get('persona') == expected.get('persona')

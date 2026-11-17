@@ -1,0 +1,24 @@
+{
+  "status": "approved-for-animation-production-only",
+  "createdAt": "2026-11-17T00:02:17.999980+00:00",
+  "generationInterface": "image_gen.imagegen",
+  "generationMode": "built-in",
+  "model": "not exposed by tool",
+  "originalGeneratedImage": "/home/umeko/.codex/generated_images/01a1d55a-e983-7ff2-a5cc-c5d7426c140f/exec-78abb8ac-903a-47c4-8a6f-92aea114f251.png",
+  "reference": "/media/umeko/DATA/umeko-agents/piapro/references/style-whale-girl.png",
+  "referenceRole": "primary style, proportions and face reference",
+  "characterImage": "/media/umeko/DATA/umeko-agents/piapro/hatsune-miku/revisions/character-r3/character.png",
+  "sha256": "5340ea364381fece39081c2229688e792bdf7dccd32e32ae9a1e4c9317a945a7",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "transparentBackground": true,
+  "imagePrompt": "/media/umeko/DATA/umeko-agents/piapro/hatsune-miku/revisions/character-r3/character-prompt.txt",
+  "idlePrompt": "/media/umeko/DATA/umeko-agents/piapro/hatsune-miku/revisions/character-r3/idle-prompt.txt",
+  "animationProductionAllowedNow": true,
+  "animationAccepted": false,
+  "publicationAuthorizedNow": false,
+  "productionApprovalAt": "2026-11-17T00:07:51.819112+00:00",
+  "productionApprovalQuote": "让它生产视频，你让它好了通知你验收"
+}

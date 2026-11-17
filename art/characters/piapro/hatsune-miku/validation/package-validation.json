@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-11-17T12:01:09.235105+00:00",
+  "scope": "accepted idle-r3 pack only; no C++ build or broad regression",
+  "status": "passed",
+  "packVersion": "1.0.0",
+  "package": "dist/characters/piapro/umeko-pet-hatsune-miku-1.0.0.zip",
+  "packageSHA256": "3b56d9f1a5c9adbd65a95d32ecba9642ee9c4421867f2a86b0f43545344c1112",
+  "gifSHA256": "cb4a2b1be90de0655a8bf394d1aedef76a58e7d7ea387720688067b44b63c2eb",
+  "actualHostImport": [
+    {
+      "id": "hatsune-miku",
+      "status": "imported",
+      "states": {
+        "idle": {
+          "animated": true,
+          "width": 512,
+          "height": 512,
+          "frames": 39,
+          "durationMs": 1800
+        }
+      }
+    }
+  ],
+  "hostSource": {
+    "repository": "https://github.com/umeiko/umeko-desktop",
+    "commit": "0d190d437f97782374f5060dc3bb67b35ab412c9",
+    "module": "app/pet_packs.py"
+  },
+  "acceptedStates": [
+    "idle"
+  ],
+  "existingPackagesUnchanged": 7,
+  "catalogEntries": 8,
+  "packageFiles": [
+    "LICENSE.txt",
+    "idle.gif",
+    "pet.json"
+  ],
+  "gifBytesMatchAcceptedDelivery": true,
+  "pythonPlaybackEvidence": "pre-acceptance-playback.json",
+  "userAcceptanceEvidence": "../acceptance.json",
+  "CI": {
+    "configuredGitHubActionsWorkflows": 0,
+    "repositoryWorkflowDirectoryExists": false,
+    "queriedVia": "GitHub API actions/workflows"
+  }
+}
