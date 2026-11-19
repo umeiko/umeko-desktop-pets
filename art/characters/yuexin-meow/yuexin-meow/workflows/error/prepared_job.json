@@ -1,0 +1,263 @@
+{
+  "graph": {
+    "1": {
+      "class_type": "UNETLoaderMultiGPU",
+      "inputs": {
+        "unet_name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "weight_dtype": "default",
+        "device": "cuda:0"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoaderMultiGPU",
+      "inputs": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "cuda:0"
+      }
+    },
+    "3": {
+      "class_type": "VAELoaderMultiGPU",
+      "inputs": {
+        "vae_name": "minimax_h3_video_vae_fp16.safetensors",
+        "device": "cuda:0"
+      }
+    },
+    "4": {
+      "class_type": "VAELoaderMultiGPU",
+      "inputs": {
+        "vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+        "device": "cuda:0"
+      }
+    },
+    "5": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "umeko_manager/yuexin_meow_pet_animation/ERROR_r0001.png"
+      }
+    },
+    "17": {
+      "class_type": "ImageScale",
+      "inputs": {
+        "image": [
+          "5",
+          0
+        ],
+        "upscale_method": "lanczos",
+        "width": 512,
+        "height": 512,
+        "crop": "disabled"
+      }
+    },
+    "6": {
+      "class_type": "MiniMaxH3ImageToVideo",
+      "inputs": {
+        "clip": [
+          "2",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ],
+        "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat notices a small problem, its eyes briefly narrow in mild puzzlement, one paw lightly touches its cheek and the head tilts a little. It then relaxes and looks forward, returning the paw to its side. Feet and body stay steady. A soft reassuring loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+        "width": 512,
+        "height": 512,
+        "length": 56,
+        "first_frame": [
+          "17",
+          0
+        ],
+        "last_frame": [
+          "17",
+          0
+        ]
+      }
+    },
+    "8": {
+      "class_type": "BasicGuider",
+      "inputs": {
+        "model": [
+          "20",
+          0
+        ],
+        "conditioning": [
+          "6",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "noise_seed": 202611190705
+      }
+    },
+    "10": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "11": {
+      "class_type": "BasicScheduler",
+      "inputs": {
+        "model": [
+          "20",
+          0
+        ],
+        "scheduler": "simple",
+        "steps": 4,
+        "denoise": 1.0
+      }
+    },
+    "12": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "noise": [
+          "9",
+          0
+        ],
+        "guider": [
+          "8",
+          0
+        ],
+        "sampler": [
+          "10",
+          0
+        ],
+        "sigmas": [
+          "11",
+          0
+        ],
+        "latent_image": [
+          "6",
+          1
+        ]
+      }
+    },
+    "13": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "12",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "14": {
+      "class_type": "VAEDecodeAudio",
+      "inputs": {
+        "samples": [
+          "12",
+          0
+        ],
+        "vae": [
+          "4",
+          0
+        ]
+      }
+    },
+    "15": {
+      "class_type": "CreateVideo",
+      "inputs": {
+        "images": [
+          "13",
+          0
+        ],
+        "fps": 24,
+        "audio": [
+          "14",
+          0
+        ]
+      }
+    },
+    "16": {
+      "class_type": "SaveVideo",
+      "inputs": {
+        "video": [
+          "15",
+          0
+        ],
+        "filename_prefix": "video/manager/yuexin_meow_pet_animation/ERROR_r0001",
+        "format": "mp4",
+        "format.codec": "h264",
+        "format.codec.encoding": "re-encode",
+        "format.codec.encoding.crf": 16.0
+      }
+    },
+    "18": {
+      "class_type": "UmekoH3FP16DenseAttention",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "collect_stats": false,
+        "label": "yuexin_meow_pet_animation_ERROR_r0001"
+      }
+    },
+    "19": {
+      "class_type": "LoraLoaderModelOnly",
+      "inputs": {
+        "model": [
+          "18",
+          0
+        ],
+        "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+        "strength_model": 1.0
+      }
+    },
+    "20": {
+      "class_type": "MiniMaxH3SigmaShift",
+      "inputs": {
+        "model": [
+          "19",
+          0
+        ],
+        "shift_video": 6.0,
+        "shift_audio": 3.0
+      }
+    }
+  },
+  "sampling_preset": {
+    "schema": "h3_sampling_v1",
+    "steps": 4,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+    "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+    "shift_video": 6.0,
+    "shift_audio": 3.0,
+    "strength_model": 1.0
+  },
+  "model_mode": "FL2VA_native_Turbo4",
+  "frames": 56,
+  "input_path": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+  "input_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+  "first_frame_visual_review": "Actually viewed original supplied RGBA, normalized512 green control and white/dark/beige matte: upright white compact sticker cat, tan ear/head/cheek patches and tail, two solid cobalt vertical eyes, tiny brown w mouth and thick warm brown outline. Whole ears, tail and short feet inside frame; visible foreground top40/bottom456. Original pixels cropped/resized/composited only. Solid blue eyes remain opaque in key test.Small paws rest at the sides, quiet original standing pose; this neutral image is used at both endpoints for the six nonworking states.",
+  "width": 512,
+  "height": 512,
+  "id": "yuexin_meow_pet_animation_ERROR_r0001",
+  "shot": "ERROR",
+  "logical_shot": "ERROR",
+  "project_id": "yuexin_meow_pet_animation",
+  "project": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119",
+  "state_dir": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/production/ERROR/r0001",
+  "priority": 60,
+  "preferred_gpu": 1,
+  "allowed_gpus": [
+    0,
+    1
+  ],
+  "revision": 1,
+  "draft_version": 1,
+  "created_utc": "2026-11-19T15:18:35.386973+00:00",
+  "authorization": "User-marked content revision or explicitly queued editable prompt; GPU failure retry is forbidden",
+  "reason": "用户端到端授权月薪喵七状态原生视频，确定新master与提示词已齐；完成回交来源",
+  "request_key": "yuexin_meow_20261119_ERROR"
+}

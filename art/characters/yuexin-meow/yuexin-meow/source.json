@@ -1,0 +1,53 @@
+{
+  "characterCreator": "月薪喵",
+  "creatorPage": "https://www.sina.cn/media/5626763209",
+  "characterIntroduction": "https://www.sina.cn/news/detail/5205405028059490.html",
+  "sourceThreadId": "01a148dd-5974-7cc2-ba2f-f586ed871633",
+  "sourceThreadTitle": "制作Umeko热成像酒店视频方案",
+  "sourceDelivery": "/home/umeko/Desktop/yuexin-meow-pet-animation-20261119/yuexin-meow",
+  "deliverySHA256SUMS": "ce8401017f3732ee2930410b8e9d733dea6013c5af4b7a0518c69b3996b0dee9",
+  "model": "MiniMax H3 FL2VA + LightX2V v1.2 four-step",
+  "interface": "Local ComfyUI reference-guided native video REST queue",
+  "samplingPreset": {
+    "schema": "h3_sampling_v1",
+    "steps": 4,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+    "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+    "shift_video": 6.0,
+    "shift_audio": 3.0,
+    "strength_model": 1.0
+  },
+  "transparentBackground": "CPU green chroma key from native 24fps video; not model-native alpha",
+  "masterSHA256": "76e7229d8020b05d68d4cbdd756a5983a57f0e8a1d2ae20349c9d634c4dc9b5e",
+  "workingReferenceSHA256": "afa9d2376dcc9be0b8008f4c0183091b19f4cb7a481ca7cde80a8c0f75ba5aac",
+  "gifSHA256": {
+    "idle": "53c388d4c3a0a055bdf91c7f07a301a0cc6aeb44e765a93f0e42745220b8ca0f",
+    "thinking": "122bea5a863021db30f0862ae31f3a50b40bf142fb7681074299d31187cccc0e",
+    "working": "9b6ac14dedf1a504e796926aa0bb685c119ac4afc28d5ef704a59c12e79b3397",
+    "waiting": "2b5503a5d749402b7b7acf35d9659d1b74f7800d77166612e8c395213612ef49",
+    "done": "c0fce9a12630c9cab26d28659c3350ff57a83942fd774a49bfef93064dd29ac0",
+    "error": "f4e40fb9d9b179f86912b939059e7f4e71a00ac8fd184b44ce7cd2cd509eb01f",
+    "idle-rare": "b453c28c30c69fe7a2540cd5c9f4c6d174767218aed7df600eba7034f474577d"
+  },
+  "nativeVideoSHA256": {
+    "error.mp4": "54842e278569733989f273b49626a10db599bd78921d5638e226656953d818df",
+    "idle.mp4": "b5ad85cde8ce5314a0a902ede64464ab34072fff1a0d4238eaace0e7207b5ec6",
+    "waiting.mp4": "b848b22502bf35b1d47533169cee648d4dc1c6c22f781f5fbf2df357a1c173c6",
+    "working.mp4": "9a66a5280dea7da4b6e7101aa58649d19af0c310691ae28d936017789680130b",
+    "thinking.mp4": "dafd157536b7dc7eda69a491dc9b5e6b3725a8e548e327f92bdf69c5bbb5547f",
+    "idle-rare.mp4": "ef620affbdf81f635efbb87ae30209bb4b25eb017bc7333bd53db0e0b4a089f9",
+    "done.mp4": "43e3fa58ddba69498ae1ffd95ce16e6d14608a7f4b32d98fe0a02b7ee77f6c8f"
+  },
+  "originalForwardFramesPreserved": true,
+  "acceptance": {
+    "quotes": [
+      "挺不错",
+      "上传pet仓吧"
+    ],
+    "recordedAt": "2026-11-19T15:42:19.970788+00:00",
+    "scope": "All seven Yuexin Meow animations, including idle-rare r2, accepted; upload to pet resource repository",
+    "deliveryFingerprint": "ce8401017f3732ee2930410b8e9d733dea6013c5af4b7a0518c69b3996b0dee9"
+  }
+}

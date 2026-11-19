@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-11-19T14:59:28.584145+00:00",
+  "interface": "image_gen.imagegen built-in",
+  "model": "not exposed by tool",
+  "source": "/home/umeko/.codex/generated_images/01a1d55a-e983-7ff2-a5cc-c5d7426c140f/exec-194ed847-b2d4-46a7-a491-8be94dd8cdf1.png",
+  "master": "/media/umeko/DATA/umeko-agents/yuexin-meow/character.png",
+  "masterSHA256": "76e7229d8020b05d68d4cbdd756a5983a57f0e8a1d2ae20349c9d634c4dc9b5e",
+  "reference": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-2.jpg",
+  "prompt": "/media/umeko/DATA/umeko-agents/yuexin-meow/character-prompt.txt",
+  "states": [
+    "idle",
+    "thinking",
+    "working",
+    "waiting",
+    "done",
+    "error",
+    "idle-rare"
+  ],
+  "targetDurationMs": {
+    "idle": 1800,
+    "thinking": 2400,
+    "working": 2200,
+    "waiting": 2400,
+    "done": 2200,
+    "error": 2400,
+    "idle-rare": 4000
+  },
+  "humanAnimationAccepted": false,
+  "workingReference": {
+    "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/working-reference.png",
+    "source": "/home/umeko/.codex/generated_images/01a1d55a-e983-7ff2-a5cc-c5d7426c140f/exec-3d654705-5d8a-4c20-9467-87f49972f217.png",
+    "sha256": "afa9d2376dcc9be0b8008f4c0183091b19f4cb7a481ca7cde80a8c0f75ba5aac",
+    "prompt": "/media/umeko/DATA/umeko-agents/yuexin-meow/working-reference-prompt.txt",
+    "visualCheck": "One cat consistent with master, both paws in contact with visible keyboard portions; complete desk has supporting legs; full feet and tail visible."
+  }
+}

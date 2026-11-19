@@ -1,0 +1,2398 @@
+{
+  "IDLE01": {
+    "filename": "idle.gif",
+    "source_prompt_sha256": "d44896ef8b4e6250c2acf621d8b878cac6e237d2e9bed81677ca46e5e7deb506",
+    "actual_final_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 1.583333 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat stands quietly upright, paws resting at its sides and feet comfortably planted. Only a very gentle upper-body breath, one relaxed blink and a tiny tail-tip sway. It finishes in the same calm standing pose. A smooth quiet idle loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 1,
+    "authorized_content_revision": false,
+    "workflow_request_sha256": "b4c8af20cd84f5faaf05fe464114e43c32be4b56bd768f03713c2157ebf3941f",
+    "prepared_job_sha256": "3c7cf39c842d78c297cfc05ffd2755a0e148db543dd67816fdee788e14119395",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190700,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+    "original_control_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+    "native_sha256": "b5ad85cde8ce5314a0a902ede64464ab34072fff1a0d4238eaace0e7207b5ec6",
+    "GIF_sha256": "53c388d4c3a0a055bdf91c7f07a301a0cc6aeb44e765a93f0e42745220b8ca0f",
+    "native_frames": 39,
+    "native_fps": 24.0,
+    "native_seconds": 1.625,
+    "GIF_milliseconds": 1800,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看全部39正序原生与透明GIF帧、原尺寸第9帧、白深米三底和末6接首6。白身米棕头腮尾、粗棕线和实心蓝竖眼保持；中段15–21附近一次较慢闭眼，微小上身呼吸、尾尖跟随，双爪在侧，双脚站定；回到原站姿，四边透明且无蓝眼挖空。闭眼持续约0.3秒，属于安静待机变化，未声称严格短瞬眨眼或像素完全不变。未播放窗口，人类动画验收待来源。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2559,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2563,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2566,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2565,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2567,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2560,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2561,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2553,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2538,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 2535,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 2510,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 2540,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 2519,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 2466,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 28,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 31,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 33,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 26,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 43,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 26,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 28,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 2523,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 2522,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 2512,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 2543,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 2559,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 2558,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 2554,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 2552,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 2549,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 2547,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 2547,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 2553,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 2561,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 2558,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 2549,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 2550,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      }
+    ]
+  },
+  "THINKING": {
+    "filename": "thinking.gif",
+    "source_prompt_sha256": "820fb5b81275e7ffb1a68e74787c347f060037201dfb8f62ebb81feb2b3f84cf",
+    "actual_final_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat slowly lifts one small paw to its chin and tilts its head a little, looking thoughtfully upward, then relaxes back to the original pose. The body and feet stay steady. A small thoughtful motion with a smooth loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 1,
+    "authorized_content_revision": false,
+    "workflow_request_sha256": "5f7e3109f65a85d6568e710f7a9711cb3eb61214c451824c365501bf48ac94d1",
+    "prepared_job_sha256": "078c42a576ecbed42a5999bcfe138c52cb1090279fff6777ce8eac7f4cc18fcc",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190701,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+    "original_control_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+    "native_sha256": "dafd157536b7dc7eda69a491dc9b5e6b3725a8e548e327f92bdf69c5bbb5547f",
+    "GIF_sha256": "122bea5a863021db30f0862ae31f3a50b40bf142fb7681074299d31187cccc0e",
+    "native_frames": 56,
+    "native_fps": 24.0,
+    "native_seconds": 2.3333333333333335,
+    "GIF_milliseconds": 2400,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看全部56正序原生与透明GIF帧、原尺寸28帧、白深米三底和末6接首6。猫的白身、米棕头腮尾/粗棕轮廓/蓝竖眼保持，双脚位置稳定，头向一侧自然倾斜，随后回正和放爪；实际双前爪一同抬到胸口下巴下方，并非原文严格单爪点下巴，且进出动作附近各有一次眨眼。此为可读的思考动作变化，明确交来源人类判断，不谎称逐字动作一致；无抠空蓝眼，首尾原站姿衔接，未自动播放。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2597,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2593,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2593,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2595,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2597,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2586,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2587,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2587,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2591,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2419,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 1696,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 1712,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 1372,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 1395,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 2225,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 2238,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 2565,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 2560,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 2555,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 2553,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 2556,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 2553,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 2555,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 2551,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 2549,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 2555,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 2552,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 2551,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 2549,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 2548,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 2558,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 2549,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 2547,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 2545,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 2552,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 39,
+        "blue_opaque_pixels": 2548,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 40,
+        "blue_opaque_pixels": 2463,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 41,
+        "blue_opaque_pixels": 2476,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 42,
+        "blue_opaque_pixels": 2248,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 43,
+        "blue_opaque_pixels": 2231,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 44,
+        "blue_opaque_pixels": 1505,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 45,
+        "blue_opaque_pixels": 1521,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 46,
+        "blue_opaque_pixels": 2367,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 47,
+        "blue_opaque_pixels": 2369,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 48,
+        "blue_opaque_pixels": 2575,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 49,
+        "blue_opaque_pixels": 2588,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 50,
+        "blue_opaque_pixels": 2591,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 51,
+        "blue_opaque_pixels": 2606,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 52,
+        "blue_opaque_pixels": 2602,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 53,
+        "blue_opaque_pixels": 2605,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 54,
+        "blue_opaque_pixels": 2606,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 55,
+        "blue_opaque_pixels": 2608,
+        "min_blue_alpha": 255
+      }
+    ]
+  },
+  "WORKING": {
+    "filename": "working.gif",
+    "source_prompt_sha256": "93e3055a05616bc942978771e1449a5efb4f15d246ec28816e7a36d3f7363f75",
+    "actual_final_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat works at the same solid small desk with visible supporting legs and the same open gray laptop as the working reference. Both small paws rest on and visibly contact the laptop keyboard. The paws make tiny alternating taps on the keys, eyes glance at the screen and blink once. Desk legs, laptop shape and position remain stable throughout the whole loop. Cat and all props fully fit in frame. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 1,
+    "authorized_content_revision": false,
+    "workflow_request_sha256": "1923a5e7e7b5003f05a133dd0b19ed898b4f1d87973f9d536a29ff3973a9ae73",
+    "prepared_job_sha256": "5c48d42f9b923dc01c52b4ac844330bfb288e28a975649cb6b1d7e158b7302b3",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190702,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/working_green_512.png",
+    "original_control_sha256": "d4fff818104bc6985795600250a82535ba47befb18290a2e4a3a29ce879c43a7",
+    "native_sha256": "9a66a5280dea7da4b6e7101aa58649d19af0c310691ae28d936017789680130b",
+    "GIF_sha256": "9b6ac14dedf1a504e796926aa0bb685c119ac4afc28d5ef704a59c12e79b3397",
+    "native_frames": 56,
+    "native_fps": 24.0,
+    "native_seconds": 2.3333333333333335,
+    "GIF_milliseconds": 2200,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看全部56正序原生和透明GIF帧、原尺寸28帧、白深米三底和末6接首6。白身米棕头尾/粗棕线/蓝竖眼保持；工作从首至末实体两腿小桌和打开灰笔记本持续存在，键盘两侧猫爪小幅交替轻按并保持键盘接触区，脸、尾、两脚与桌腿完整，末帧仍带电脑。实际有两次短闭眼而非严格一次；显示的是显示器背壳和键盘，不宣称看见活动屏幕正面。原生小线条形变保留，不是静图假动作；蓝眼和白身透明无挖空，首尾接回工作姿态，人类验收待来源，未自动播放。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2266,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2273,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2271,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2273,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2275,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2271,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2274,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2271,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2277,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2206,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 19,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 24,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 25,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 25,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 2310,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 2292,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 2281,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 2281,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 2271,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 2259,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 2259,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 2259,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 2255,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 2256,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 2246,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 2254,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 2247,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 2252,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 2258,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 2260,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 2243,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 2247,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 2254,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 2248,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 2252,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 2236,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 2235,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 19,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 18,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 39,
+        "blue_opaque_pixels": 27,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 40,
+        "blue_opaque_pixels": 24,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 41,
+        "blue_opaque_pixels": 24,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 42,
+        "blue_opaque_pixels": 20,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 43,
+        "blue_opaque_pixels": 757,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 44,
+        "blue_opaque_pixels": 2234,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 45,
+        "blue_opaque_pixels": 2244,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 46,
+        "blue_opaque_pixels": 2268,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 47,
+        "blue_opaque_pixels": 2291,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 48,
+        "blue_opaque_pixels": 2270,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 49,
+        "blue_opaque_pixels": 2273,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 50,
+        "blue_opaque_pixels": 2269,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 51,
+        "blue_opaque_pixels": 2277,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 52,
+        "blue_opaque_pixels": 2272,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 53,
+        "blue_opaque_pixels": 2274,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 54,
+        "blue_opaque_pixels": 2271,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 55,
+        "blue_opaque_pixels": 2269,
+        "min_blue_alpha": 255
+      }
+    ]
+  },
+  "WAITING": {
+    "filename": "waiting.gif",
+    "source_prompt_sha256": "6ab1d56e5bed0533195140208aca0d79c823effa47851ea86a019fd8c26e6da7",
+    "actual_final_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat stands patiently with paws at its sides, gives one small sideways glance, softly blinks and looks forward again. Its tail tip makes one slow little sway. Feet stay planted. The same relaxed pose opens and closes the loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 1,
+    "authorized_content_revision": false,
+    "workflow_request_sha256": "cb2e7143ac2f73751596b7f9634b1a496ed9926bb211efc7e2c5bafcd57076cc",
+    "prepared_job_sha256": "81feea93b29f44daf3c6e4804e6f594c5826e149d96079f485e9fb07c8b1879c",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190703,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+    "original_control_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+    "native_sha256": "b848b22502bf35b1d47533169cee648d4dc1c6c22f781f5fbf2df357a1c173c6",
+    "GIF_sha256": "2b5503a5d749402b7b7acf35d9659d1b74f7800d77166612e8c395213612ef49",
+    "native_frames": 56,
+    "native_fps": 24.0,
+    "native_seconds": 2.3333333333333335,
+    "GIF_milliseconds": 2400,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看全部56正序原生与透明GIF帧、原尺寸28帧、白深米三底及末6接首6。猫保持原白身、米棕头腮尾、粗棕线和实心蓝竖眼，双爪在体侧、双脚原地，头小幅偏侧并带尾尖缓慢跟随，回正后约28–39帧有一次较长轻闭眼再睁开。实际侧看主要由头部小倾斜表现，不宣称瞳孔明确左右移动；属于耐心安静等待变化，首尾站姿接回一致。透明底和蓝眼白身完整，无被当幕色挖空；未自动播放，人类动画验收仍待来源。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2980,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2975,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2974,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2981,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2978,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2951,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2954,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2970,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2968,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2972,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 2968,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 2965,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 2955,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 2899,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 2850,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 2827,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 2853,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 2879,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 2874,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 2886,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 2876,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 2868,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 2888,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 2891,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 2887,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 2879,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 2879,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 2867,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 425,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 452,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 426,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 456,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 443,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 452,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 491,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 465,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 451,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 480,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 455,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 39,
+        "blue_opaque_pixels": 423,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 40,
+        "blue_opaque_pixels": 2924,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 41,
+        "blue_opaque_pixels": 2941,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 42,
+        "blue_opaque_pixels": 2956,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 43,
+        "blue_opaque_pixels": 2948,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 44,
+        "blue_opaque_pixels": 2944,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 45,
+        "blue_opaque_pixels": 2967,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 46,
+        "blue_opaque_pixels": 2956,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 47,
+        "blue_opaque_pixels": 2962,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 48,
+        "blue_opaque_pixels": 2957,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 49,
+        "blue_opaque_pixels": 2969,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 50,
+        "blue_opaque_pixels": 2963,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 51,
+        "blue_opaque_pixels": 2972,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 52,
+        "blue_opaque_pixels": 2960,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 53,
+        "blue_opaque_pixels": 2959,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 54,
+        "blue_opaque_pixels": 2961,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 55,
+        "blue_opaque_pixels": 2967,
+        "min_blue_alpha": 255
+      }
+    ]
+  },
+  "DONE": {
+    "filename": "done.gif",
+    "source_prompt_sha256": "92f1b21ef0ad9afe9e7675ef7678b5878a8921f47851a8e9ac235d61e58b6b3b",
+    "actual_final_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat smiles, closes its eyes happily, lifts both little paws beside its chest in a small satisfied celebration, gives a gentle nod, then lowers its paws and returns to its original standing expression. Feet stay planted. Cute and restrained looping gesture. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 1,
+    "authorized_content_revision": false,
+    "workflow_request_sha256": "93e3499b8643078d777588b929937d2f63f7fc0881328587e904ff399bc04d5c",
+    "prepared_job_sha256": "5414cc19cdb8ea53a21d58369b27cf0b9899aca57e60bec941b6e2df2032819b",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190704,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+    "original_control_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+    "native_sha256": "43e3fa58ddba69498ae1ffd95ce16e6d14608a7f4b32d98fe0a02b7ee77f6c8f",
+    "GIF_sha256": "c0fce9a12630c9cab26d28659c3350ff57a83942fd774a49bfef93064dd29ac0",
+    "native_frames": 56,
+    "native_fps": 24.0,
+    "native_seconds": 2.3333333333333335,
+    "GIF_milliseconds": 2200,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看全部56正序原生与透明GIF帧、原尺寸28帧、白深米三底和末6接首6。猫的白身、米棕头腮尾和粗棕线保持；双前爪由体侧抬到胸旁、小幅开心庆祝，眼睛弯闭并张小嘴露粉色舌部，头轻倾跟随，再放爪恢复原实心蓝眼w嘴站姿。实际不是全程闭嘴，记录其自然开心表情变化；短脚持续着地、猫身大小整体稳定，未见硬切复位或道具突现。透明边缘和蓝眼/白身完整，首尾匹配，没有静图造动作或自动播放，人类动画验收待来源。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2583,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2591,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2590,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2591,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2593,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2591,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2587,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2585,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2586,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2573,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 2600,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 2,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 2,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 3,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 1,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 39,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 40,
+        "blue_opaque_pixels": 0,
+        "min_blue_alpha": null
+      },
+      {
+        "frame": 41,
+        "blue_opaque_pixels": 975,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 42,
+        "blue_opaque_pixels": 2635,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 43,
+        "blue_opaque_pixels": 2602,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 44,
+        "blue_opaque_pixels": 2601,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 45,
+        "blue_opaque_pixels": 2600,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 46,
+        "blue_opaque_pixels": 2603,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 47,
+        "blue_opaque_pixels": 2587,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 48,
+        "blue_opaque_pixels": 2580,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 49,
+        "blue_opaque_pixels": 2577,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 50,
+        "blue_opaque_pixels": 2580,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 51,
+        "blue_opaque_pixels": 2583,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 52,
+        "blue_opaque_pixels": 2585,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 53,
+        "blue_opaque_pixels": 2584,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 54,
+        "blue_opaque_pixels": 2583,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 55,
+        "blue_opaque_pixels": 2585,
+        "min_blue_alpha": 255
+      }
+    ]
+  },
+  "ERROR": {
+    "filename": "error.gif",
+    "source_prompt_sha256": "ef0956652449125540c099b32e4f3fdf4e42a1b910070ac0846877710d9e31ad",
+    "actual_final_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat notices a small problem, its eyes briefly narrow in mild puzzlement, one paw lightly touches its cheek and the head tilts a little. It then relaxes and looks forward, returning the paw to its side. Feet and body stay steady. A soft reassuring loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 1,
+    "authorized_content_revision": false,
+    "workflow_request_sha256": "3dc3ac9a8001d9086fdf8baec512e91e222ecc3d20672e20214f41929e118adc",
+    "prepared_job_sha256": "1e25addb0f68941bc1c7b9bc8804ce8e8444eef580545f6a258bf0424255d358",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190705,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+    "original_control_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+    "native_sha256": "54842e278569733989f273b49626a10db599bd78921d5638e226656953d818df",
+    "GIF_sha256": "f4e40fb9d9b179f86912b939059e7f4e71a00ac8fd184b44ce7cd2cd509eb01f",
+    "native_frames": 56,
+    "native_fps": 24.0,
+    "native_seconds": 2.3333333333333335,
+    "GIF_milliseconds": 2400,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看全部56正序原生与透明GIF帧、原尺寸28帧、白深米三底和末6接首6。猫保持白身米棕头尾、粗棕线，双脚原地；中段眼睛挤成小角形、嘴短暂变为困惑倒v，双爪抬到脸下/胸侧并轻歪头，再放爪睁原蓝竖眼回w嘴站姿。实际是双爪小困扰表情，比原文单爪轻触脸颊更明显，明确记录给来源判断而不冒称严格逐字执行；没有泪水/额外符号或角色，道具未突现，首尾回到原姿。蓝眼/白身透明完整，无静图补动作或自动播放，仍待人类动画验收。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2934,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2949,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2942,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2945,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2942,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2939,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2931,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2937,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2936,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2945,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 2896,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 401,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 365,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 374,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 367,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 386,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 351,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 347,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 335,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 346,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 348,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 343,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 338,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 352,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 347,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 350,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 340,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 341,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 340,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 341,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 327,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 334,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 356,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 361,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 368,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 387,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 381,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 2844,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 2923,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 39,
+        "blue_opaque_pixels": 2921,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 40,
+        "blue_opaque_pixels": 2904,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 41,
+        "blue_opaque_pixels": 2956,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 42,
+        "blue_opaque_pixels": 2937,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 43,
+        "blue_opaque_pixels": 2954,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 44,
+        "blue_opaque_pixels": 2930,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 45,
+        "blue_opaque_pixels": 2933,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 46,
+        "blue_opaque_pixels": 2936,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 47,
+        "blue_opaque_pixels": 2933,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 48,
+        "blue_opaque_pixels": 2929,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 49,
+        "blue_opaque_pixels": 2946,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 50,
+        "blue_opaque_pixels": 2939,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 51,
+        "blue_opaque_pixels": 2944,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 52,
+        "blue_opaque_pixels": 2931,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 53,
+        "blue_opaque_pixels": 2940,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 54,
+        "blue_opaque_pixels": 2937,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 55,
+        "blue_opaque_pixels": 2940,
+        "min_blue_alpha": 255
+      }
+    ]
+  },
+  "IDLE_RARE": {
+    "filename": "idle-rare.gif",
+    "source_prompt_sha256": "d3177088b493cef4fb5050c942e6c0cecafbaa2fe7ff8f93e841333aab2b97f8",
+    "actual_final_prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 4.416667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact white and pale-tan Yuexin Meow sticker cat, solid cobalt-blue vertical eyes, small brown w-shaped muzzle, thick brown outlines and small tan tail. Fixed front camera, full ears, tail and feet visible at the original scale. During the first half-second, the paw on the LEFT side of the image rises and rests directly across the small nose and muzzle. That LEFT paw stays resting there. The paw on the RIGHT side of the image lifts beside the right cheek and makes two distinct slow sideways fanning strokes: outward to shoulder width and back toward the chest, once from0.7 to1.7 seconds, then again from1.9 to2.9 seconds. This RIGHT paw traces two clear horizontal arcs beside the face while the LEFT paw gently holds the nose. The head gives a tiny playful sway and both feet stay planted. From3.2 seconds, both paws lower gently to the original side-resting pose, finishing exactly at the reference stance. Uniform saturated green #00FF00 background. Smooth restrained motion.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+    "negative_prompt": "",
+    "revision": 2,
+    "authorized_content_revision": true,
+    "workflow_request_sha256": "6f625b41c0778c6e7adf7cfb923bb29e23a7c1c33fbc36d4a3d8360add444099",
+    "prepared_job_sha256": "a547a0ce822de5afb35249d201f6d80e43c65960ce20d8efe210cc01790b7718",
+    "actual_model_prompt_matches_prepared": true,
+    "seed": 202611190808,
+    "sampling_preset": {
+      "schema": "h3_sampling_v1",
+      "steps": 4,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+      "model_sha256": "c8168ebc17bbacc4296103dda2fec1ba85b24392fa08cf2bfbcef0cff0dc3cc8",
+      "shift_video": 6.0,
+      "shift_audio": 3.0,
+      "strength_model": 1.0
+    },
+    "original_control": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+    "original_control_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+    "native_sha256": "ef620affbdf81f635efbb87ae30209bb4b25eb017bc7333bd53db0e0b4a089f9",
+    "GIF_sha256": "b453c28c30c69fe7a2540cd5c9f4c6d174767218aed7df600eba7034f474577d",
+    "native_frames": 107,
+    "native_fps": 24.0,
+    "native_seconds": 4.458333333333333,
+    "GIF_milliseconds": 4000,
+    "all_native_frames_original_forward_order": true,
+    "matte_filter": "format=rgba,colorkey=0x00ff00:0.14:0.08,despill=type=green:mix=0.5",
+    "matte_alpha_threshold": 128,
+    "transparency_is_CPU_postprocessing": true,
+    "observations": "实际查看r2全部107正序原生和透明GIF帧、512原尺寸53帧、16张真实GIF手部放大连续时点、白深米三底及末6接首6。画面左爪抬起捂鼻口并持续保持，右爪先明显向外展，再在胸前反复较小幅扇动，最后双爪放下回原站姿；已明显分离两只爪的职能，区别于拒收r1双爪一起捂脸。实际有一次较大外展和随后多次较小胸前摆动，不是严格提示词规定的两个等幅水平弧或精确分秒，不虚称逐字计数一致。白身米棕头尾/棕线/实心蓝眼保持，脚原地且四边透明，首尾接回原姿；无静图插帧倒放补救，未自动播放，人类验收待来源。",
+    "eye_palette_observations": [
+      {
+        "frame": 0,
+        "blue_opaque_pixels": 2579,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 1,
+        "blue_opaque_pixels": 2597,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 2,
+        "blue_opaque_pixels": 2598,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 3,
+        "blue_opaque_pixels": 2602,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 4,
+        "blue_opaque_pixels": 2600,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 5,
+        "blue_opaque_pixels": 2586,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 6,
+        "blue_opaque_pixels": 2579,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 7,
+        "blue_opaque_pixels": 2589,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 8,
+        "blue_opaque_pixels": 2579,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 9,
+        "blue_opaque_pixels": 2607,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 10,
+        "blue_opaque_pixels": 2566,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 11,
+        "blue_opaque_pixels": 2553,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 12,
+        "blue_opaque_pixels": 2569,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 13,
+        "blue_opaque_pixels": 2512,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 14,
+        "blue_opaque_pixels": 2498,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 15,
+        "blue_opaque_pixels": 2497,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 16,
+        "blue_opaque_pixels": 2505,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 17,
+        "blue_opaque_pixels": 2489,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 18,
+        "blue_opaque_pixels": 2491,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 19,
+        "blue_opaque_pixels": 2499,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 20,
+        "blue_opaque_pixels": 2496,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 21,
+        "blue_opaque_pixels": 2505,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 22,
+        "blue_opaque_pixels": 2501,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 23,
+        "blue_opaque_pixels": 2499,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 24,
+        "blue_opaque_pixels": 2490,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 25,
+        "blue_opaque_pixels": 2495,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 26,
+        "blue_opaque_pixels": 2482,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 27,
+        "blue_opaque_pixels": 2483,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 28,
+        "blue_opaque_pixels": 2484,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 29,
+        "blue_opaque_pixels": 2492,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 30,
+        "blue_opaque_pixels": 2494,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 31,
+        "blue_opaque_pixels": 2506,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 32,
+        "blue_opaque_pixels": 2496,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 33,
+        "blue_opaque_pixels": 2512,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 34,
+        "blue_opaque_pixels": 2510,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 35,
+        "blue_opaque_pixels": 2499,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 36,
+        "blue_opaque_pixels": 2495,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 37,
+        "blue_opaque_pixels": 2503,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 38,
+        "blue_opaque_pixels": 2506,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 39,
+        "blue_opaque_pixels": 2498,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 40,
+        "blue_opaque_pixels": 2492,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 41,
+        "blue_opaque_pixels": 2494,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 42,
+        "blue_opaque_pixels": 2500,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 43,
+        "blue_opaque_pixels": 2473,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 44,
+        "blue_opaque_pixels": 2492,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 45,
+        "blue_opaque_pixels": 2467,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 46,
+        "blue_opaque_pixels": 2476,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 47,
+        "blue_opaque_pixels": 2506,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 48,
+        "blue_opaque_pixels": 2497,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 49,
+        "blue_opaque_pixels": 2508,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 50,
+        "blue_opaque_pixels": 2501,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 51,
+        "blue_opaque_pixels": 2521,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 52,
+        "blue_opaque_pixels": 2482,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 53,
+        "blue_opaque_pixels": 2498,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 54,
+        "blue_opaque_pixels": 2507,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 55,
+        "blue_opaque_pixels": 2513,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 56,
+        "blue_opaque_pixels": 2515,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 57,
+        "blue_opaque_pixels": 2518,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 58,
+        "blue_opaque_pixels": 2525,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 59,
+        "blue_opaque_pixels": 2526,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 60,
+        "blue_opaque_pixels": 2519,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 61,
+        "blue_opaque_pixels": 2510,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 62,
+        "blue_opaque_pixels": 2503,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 63,
+        "blue_opaque_pixels": 2506,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 64,
+        "blue_opaque_pixels": 2489,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 65,
+        "blue_opaque_pixels": 2518,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 66,
+        "blue_opaque_pixels": 2514,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 67,
+        "blue_opaque_pixels": 2521,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 68,
+        "blue_opaque_pixels": 2534,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 69,
+        "blue_opaque_pixels": 2529,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 70,
+        "blue_opaque_pixels": 2519,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 71,
+        "blue_opaque_pixels": 2529,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 72,
+        "blue_opaque_pixels": 2512,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 73,
+        "blue_opaque_pixels": 2510,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 74,
+        "blue_opaque_pixels": 2504,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 75,
+        "blue_opaque_pixels": 2511,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 76,
+        "blue_opaque_pixels": 2507,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 77,
+        "blue_opaque_pixels": 2505,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 78,
+        "blue_opaque_pixels": 2487,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 79,
+        "blue_opaque_pixels": 2505,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 80,
+        "blue_opaque_pixels": 2506,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 81,
+        "blue_opaque_pixels": 2499,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 82,
+        "blue_opaque_pixels": 2493,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 83,
+        "blue_opaque_pixels": 2501,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 84,
+        "blue_opaque_pixels": 2495,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 85,
+        "blue_opaque_pixels": 2495,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 86,
+        "blue_opaque_pixels": 2454,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 87,
+        "blue_opaque_pixels": 2527,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 88,
+        "blue_opaque_pixels": 2564,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 89,
+        "blue_opaque_pixels": 2539,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 90,
+        "blue_opaque_pixels": 2515,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 91,
+        "blue_opaque_pixels": 2562,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 92,
+        "blue_opaque_pixels": 2610,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 93,
+        "blue_opaque_pixels": 2648,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 94,
+        "blue_opaque_pixels": 2612,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 95,
+        "blue_opaque_pixels": 2621,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 96,
+        "blue_opaque_pixels": 2620,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 97,
+        "blue_opaque_pixels": 2623,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 98,
+        "blue_opaque_pixels": 2617,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 99,
+        "blue_opaque_pixels": 2643,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 100,
+        "blue_opaque_pixels": 2633,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 101,
+        "blue_opaque_pixels": 2634,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 102,
+        "blue_opaque_pixels": 2633,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 103,
+        "blue_opaque_pixels": 2637,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 104,
+        "blue_opaque_pixels": 2625,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 105,
+        "blue_opaque_pixels": 2638,
+        "min_blue_alpha": 255
+      },
+      {
+        "frame": 106,
+        "blue_opaque_pixels": 2633,
+        "min_blue_alpha": 255
+      }
+    ]
+  }
+}

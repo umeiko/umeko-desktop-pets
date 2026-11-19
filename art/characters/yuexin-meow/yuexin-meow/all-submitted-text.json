@@ -1,0 +1,191 @@
+{
+  "utc": "2026-11-19T15:33:08.094577+00:00",
+  "states": {
+    "IDLE01": {
+      "positive_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 1.583333 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat stands quietly upright, paws resting at its sides and feet comfortably planted. Only a very gentle upper-body breath, one relaxed blink and a tiny tail-tip sway. It finishes in the same calm standing pose. A smooth quiet idle loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 1.583333 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat stands quietly upright, paws resting at its sides and feet comfortably planted. Only a very gentle upper-body breath, one relaxed blink and a tiny tail-tip sway. It finishes in the same calm standing pose. A smooth quiet idle loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        },
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "b4c8af20cd84f5faaf05fe464114e43c32be4b56bd768f03713c2157ebf3941f",
+      "actual_request_text_matches_prepared": true
+    },
+    "THINKING": {
+      "positive_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat slowly lifts one small paw to its chin and tilts its head a little, looking thoughtfully upward, then relaxes back to the original pose. The body and feet stay steady. A small thoughtful motion with a smooth loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat slowly lifts one small paw to its chin and tilts its head a little, looking thoughtfully upward, then relaxes back to the original pose. The body and feet stay steady. A small thoughtful motion with a smooth loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        },
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "5f7e3109f65a85d6568e710f7a9711cb3eb61214c451824c365501bf48ac94d1",
+      "actual_request_text_matches_prepared": true
+    },
+    "WORKING": {
+      "positive_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat works at the same solid small desk with visible supporting legs and the same open gray laptop as the working reference. Both small paws rest on and visibly contact the laptop keyboard. The paws make tiny alternating taps on the keys, eyes glance at the screen and blink once. Desk legs, laptop shape and position remain stable throughout the whole loop. Cat and all props fully fit in frame. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat works at the same solid small desk with visible supporting legs and the same open gray laptop as the working reference. Both small paws rest on and visibly contact the laptop keyboard. The paws make tiny alternating taps on the keys, eyes glance at the screen and blink once. Desk legs, laptop shape and position remain stable throughout the whole loop. Cat and all props fully fit in frame. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d4fff818104bc6985795600250a82535ba47befb18290a2e4a3a29ce879c43a7"
+        },
+        {
+          "control_image_sha256": "d4fff818104bc6985795600250a82535ba47befb18290a2e4a3a29ce879c43a7"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "1923a5e7e7b5003f05a133dd0b19ed898b4f1d87973f9d536a29ff3973a9ae73",
+      "actual_request_text_matches_prepared": true
+    },
+    "WAITING": {
+      "positive_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat stands patiently with paws at its sides, gives one small sideways glance, softly blinks and looks forward again. Its tail tip makes one slow little sway. Feet stay planted. The same relaxed pose opens and closes the loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat stands patiently with paws at its sides, gives one small sideways glance, softly blinks and looks forward again. Its tail tip makes one slow little sway. Feet stay planted. The same relaxed pose opens and closes the loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        },
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "cb2e7143ac2f73751596b7f9634b1a496ed9926bb211efc7e2c5bafcd57076cc",
+      "actual_request_text_matches_prepared": true
+    },
+    "DONE": {
+      "positive_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat smiles, closes its eyes happily, lifts both little paws beside its chest in a small satisfied celebration, gives a gentle nod, then lowers its paws and returns to its original standing expression. Feet stay planted. Cute and restrained looping gesture. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat smiles, closes its eyes happily, lifts both little paws beside its chest in a small satisfied celebration, gives a gentle nod, then lowers its paws and returns to its original standing expression. Feet stay planted. Cute and restrained looping gesture. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        },
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "93e3499b8643078d777588b929937d2f63f7fc0881328587e904ff399bc04d5c",
+      "actual_request_text_matches_prepared": true
+    },
+    "ERROR": {
+      "positive_prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat notices a small problem, its eyes briefly narrow in mild puzzlement, one paw lightly touches its cheek and the head tilts a little. It then relaxes and looks forward, returning the paw to its side. Feet and body stay steady. A soft reassuring loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat notices a small problem, its eyes briefly narrow in mild puzzlement, one paw lightly touches its cheek and the head tilts a little. It then relaxes and looks forward, returning the paw to its side. Feet and body stay steady. A soft reassuring loop. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        },
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "3dc3ac9a8001d9086fdf8baec512e91e222ecc3d20672e20214f41929e118adc",
+      "actual_request_text_matches_prepared": true
+    },
+    "IDLE_RARE": {
+      "positive_prompt": "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 4.416667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact white and pale-tan Yuexin Meow sticker cat, solid cobalt-blue vertical eyes, small brown w-shaped muzzle, thick brown outlines and small tan tail. Fixed front camera, full ears, tail and feet visible at the original scale. During the first half-second, the paw on the LEFT side of the image rises and rests directly across the small nose and muzzle. That LEFT paw stays resting there. The paw on the RIGHT side of the image lifts beside the right cheek and makes two distinct slow sideways fanning strokes: outward to shoulder width and back toward the chest, once from0.7 to1.7 seconds, then again from1.9 to2.9 seconds. This RIGHT paw traces two clear horizontal arcs beside the face while the LEFT paw gently holds the nose. The head gives a tiny playful sway and both feet stay planted. From3.2 seconds, both paws lower gently to the original side-resting pose, finishing exactly at the reference stance. Uniform saturated green #00FF00 background. Smooth restrained motion.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+      "negative_prompt": "",
+      "negative_conditioning_connected": false,
+      "text_encoder_prefix_segments": [
+        "<Picture 1>: ",
+        "<Picture 2>: "
+      ],
+      "all_textual_conditioning_in_encoder_order": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "For the target video, at 0.00 seconds, <Picture 1> (from [Shot 1]) is fully referenced. At 4.416667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact white and pale-tan Yuexin Meow sticker cat, solid cobalt-blue vertical eyes, small brown w-shaped muzzle, thick brown outlines and small tan tail. Fixed front camera, full ears, tail and feet visible at the original scale. During the first half-second, the paw on the LEFT side of the image rises and rests directly across the small nose and muzzle. That LEFT paw stays resting there. The paw on the RIGHT side of the image lifts beside the right cheek and makes two distinct slow sideways fanning strokes: outward to shoulder width and back toward the chest, once from0.7 to1.7 seconds, then again from1.9 to2.9 seconds. This RIGHT paw traces two clear horizontal arcs beside the face while the LEFT paw gently holds the nose. The head gives a tiny playful sway and both feet stay planted. From3.2 seconds, both paws lower gently to the original side-resting pose, finishing exactly at the reference stance. Uniform saturated green #00FF00 background. Smooth restrained motion.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A."
+      ],
+      "vision_blocks_after_labels": [
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        },
+        {
+          "control_image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d"
+        }
+      ],
+      "additional_chat_or_system_text": "",
+      "actual_request_sha256": "6f625b41c0778c6e7adf7cfb923bb29e23a7c1c33fbc36d4a3d8360add444099",
+      "actual_request_text_matches_prepared": true
+    }
+  },
+  "implementation_inspected": [
+    {
+      "path": "/media/umeko/DATA/linux_env/ComfyUI/comfy_extras/nodes_minimax_h3.py",
+      "sha256": "108ceff11e5a5c9a34a57bbc380447cf9941beb673a1bd421abc818de54ccd5c"
+    },
+    {
+      "path": "/media/umeko/DATA/linux_env/ComfyUI/comfy/text_encoders/minimax.py",
+      "sha256": "0e16e44100d6db2bdfd1292eafd1b2f8d71147c546f49afe292fe4d2cdcefe8a"
+    }
+  ],
+  "method": "Actual H3 I2V installed node passes prompt directly to clip.tokenize; installed tokenizer prepends only Picture1/Picture2 labels and vision blocks; BasicGuider only has this positive conditioning."
+}

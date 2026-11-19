@@ -1,0 +1,171 @@
+{
+  "utc": "2026-11-19T15:16:44.094958+00:00",
+  "references": [
+    {
+      "role": "neutral",
+      "source_path": "/media/umeko/DATA/umeko-agents/yuexin-meow/character.png",
+      "source_sha256": "76e7229d8020b05d68d4cbdd756a5983a57f0e8a1d2ae20349c9d634c4dc9b5e",
+      "alpha_visible_threshold": 8,
+      "original_visible_crop": [
+        207,
+        167,
+        1010,
+        1084
+      ],
+      "scaled_foreground_size": [
+        364,
+        416
+      ],
+      "placement": [
+        74,
+        40
+      ],
+      "top": 40,
+      "foreground_bottom": 456,
+      "image_path": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/neutral_green_512.png",
+      "image_sha256": "d889f49662f0820f5348f7230dd885faefa2118dfc314157d2177b2b2781d17d",
+      "key_color": "#00FF00",
+      "motion_generated_by_CPU": false
+    },
+    {
+      "role": "working",
+      "source_path": "/media/umeko/DATA/umeko-agents/yuexin-meow/working-reference.png",
+      "source_sha256": "afa9d2376dcc9be0b8008f4c0183091b19f4cb7a481ca7cde80a8c0f75ba5aac",
+      "alpha_visible_threshold": 8,
+      "original_visible_crop": [
+        186,
+        163,
+        1011,
+        1130
+      ],
+      "scaled_foreground_size": [
+        355,
+        416
+      ],
+      "placement": [
+        78,
+        40
+      ],
+      "top": 40,
+      "foreground_bottom": 456,
+      "image_path": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/states_512/assets/working_green_512.png",
+      "image_sha256": "d4fff818104bc6985795600250a82535ba47befb18290a2e4a3a29ce879c43a7",
+      "key_color": "#00FF00",
+      "motion_generated_by_CPU": false
+    }
+  ],
+  "source_package_files": [
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/SHA256SUMS.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/SHA256SUMS.txt",
+      "sha256": "5f692315549816236efa44a14c907f079e91326f90d265c6be44f9b3d9c941ff"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/animation-prompts.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/animation-prompts.txt",
+      "sha256": "c07c2fa79b3cbaa5011b20ce3f1480b5ccafa85c0b901dcd4259d29cb0425576"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/character-prompt.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/character-prompt.txt",
+      "sha256": "b7fac83716a3ddcac78e701ce85a6f19c48e4163a79669a721080cdc2985da67"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/character.png",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/character.png",
+      "sha256": "76e7229d8020b05d68d4cbdd756a5983a57f0e8a1d2ae20349c9d634c4dc9b5e"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/design-record.json",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/design-record.json",
+      "sha256": "234fd3cd6dd79e0422f6dae2147586c311b58968b5ab419cdb67d6fe974ca42b"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/dialogue.json",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/dialogue.json",
+      "sha256": "35bd251137fd6fec35b9d3129e5e5134b2a4e76d0909f399f3c888d46d6bb30b"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/persona.json",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/persona.json",
+      "sha256": "92dc8c0f96b69674a51219f2a7ad2c774df17f2caa053e3380999440dd6065a5"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/persona.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/persona.txt",
+      "sha256": "c955e2e0512683e0254273c30be16ed9f52123b02df6f87e4c72b6e1d4fc52bf"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/done.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/done.txt",
+      "sha256": "92f1b21ef0ad9afe9e7675ef7678b5878a8921f47851a8e9ac235d61e58b6b3b"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/error.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/error.txt",
+      "sha256": "ef0956652449125540c099b32e4f3fdf4e42a1b910070ac0846877710d9e31ad"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/idle-rare.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/idle-rare.txt",
+      "sha256": "d3177088b493cef4fb5050c942e6c0cecafbaa2fe7ff8f93e841333aab2b97f8"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/idle.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/idle.txt",
+      "sha256": "d44896ef8b4e6250c2acf621d8b878cac6e237d2e9bed81677ca46e5e7deb506"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/thinking.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/thinking.txt",
+      "sha256": "820fb5b81275e7ffb1a68e74787c347f060037201dfb8f62ebb81feb2b3f84cf"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/waiting.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/waiting.txt",
+      "sha256": "6ab1d56e5bed0533195140208aca0d79c823effa47851ea86a019fd8c26e6da7"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/working.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/prompts/working.txt",
+      "sha256": "93e3055a05616bc942978771e1449a5efb4f15d246ec28816e7a36d3f7363f75"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/community-idle.png",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/references/community-idle.png",
+      "sha256": "c0f8edda3a6fde994e439906e5841cefa9515ab5f48f48397337cd7a392d5365"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-1.jpg",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/references/creator-introduction-1.jpg",
+      "sha256": "4f761790f8c9beddaf3039b56fc1eb0f181e575240149747aa8e79eea91a45c4"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-2.jpg",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/references/creator-introduction-2.jpg",
+      "sha256": "b1388ab9b81a70a95854bca427e6fde6d0e1a841bc94db3fc3fc4bb9c2fb62e0"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-3.jpg",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/references/creator-introduction-3.jpg",
+      "sha256": "46221b69d8c1ad781fbc2b59f2d35f1c8c888b1ae3a3ba33758edc1df87ab766"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/sources.json",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/references/sources.json",
+      "sha256": "662f60f9238ae2fa12d6d2ac941efacf23a5ae038c1fc0de96761845a1617e63"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/working-reference-prompt.txt",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/working-reference-prompt.txt",
+      "sha256": "0d6d6c2dacfb8d9e78325114b38c720fd3cda65d3f55c8651fb4c9d4b0b18a5f"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/working-reference.png",
+      "copy": "/media/umeko/DATA/video_gen_ws/yuexin_meow_pet_states_20261119/reference_package/working-reference.png",
+      "sha256": "afa9d2376dcc9be0b8008f4c0183091b19f4cb7a481ca7cde80a8c0f75ba5aac"
+    }
+  ],
+  "protected_files": 45,
+  "matte_method": "Native green RGB video followed by CPU key; transparency is postprocessed, not model-native alpha."
+}

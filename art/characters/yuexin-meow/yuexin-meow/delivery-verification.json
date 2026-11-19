@@ -1,0 +1,90 @@
+{
+  "verifiedEntries": 102,
+  "deliveryFingerprint": "ce8401017f3732ee2930410b8e9d733dea6013c5af4b7a0518c69b3996b0dee9",
+  "reviewMetrics": {
+    "idle": {
+      "frames": 39,
+      "durationMs": 1800,
+      "gifSHA256": "53c388d4c3a0a055bdf91c7f07a301a0cc6aeb44e765a93f0e42745220b8ca0f",
+      "firstLastMeanAbsRGBA": [
+        1.086640625,
+        0.8840625,
+        1.0955859375,
+        0.21984375
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/idle-all-frames.jpg"
+    },
+    "thinking": {
+      "frames": 56,
+      "durationMs": 2400,
+      "gifSHA256": "122bea5a863021db30f0862ae31f3a50b40bf142fb7681074299d31187cccc0e",
+      "firstLastMeanAbsRGBA": [
+        0.8879296875,
+        0.8839453125,
+        1.0866796875,
+        0.220390625
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/thinking-all-frames.jpg"
+    },
+    "working": {
+      "frames": 56,
+      "durationMs": 2200,
+      "gifSHA256": "9b6ac14dedf1a504e796926aa0bb685c119ac4afc28d5ef704a59c12e79b3397",
+      "firstLastMeanAbsRGBA": [
+        1.1416015625,
+        0.946953125,
+        1.241875,
+        0.2322265625
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/working-all-frames.jpg"
+    },
+    "waiting": {
+      "frames": 56,
+      "durationMs": 2400,
+      "gifSHA256": "2b5503a5d749402b7b7acf35d9659d1b74f7800d77166612e8c395213612ef49",
+      "firstLastMeanAbsRGBA": [
+        0.928203125,
+        0.738671875,
+        1.0816015625,
+        0.1686328125
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/waiting-all-frames.jpg"
+    },
+    "done": {
+      "frames": 56,
+      "durationMs": 2200,
+      "gifSHA256": "c0fce9a12630c9cab26d28659c3350ff57a83942fd774a49bfef93064dd29ac0",
+      "firstLastMeanAbsRGBA": [
+        1.0934375,
+        0.9607421875,
+        1.28625,
+        0.2530078125
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/done-all-frames.jpg"
+    },
+    "error": {
+      "frames": 56,
+      "durationMs": 2400,
+      "gifSHA256": "f4e40fb9d9b179f86912b939059e7f4e71a00ac8fd184b44ce7cd2cd509eb01f",
+      "firstLastMeanAbsRGBA": [
+        0.96796875,
+        0.7406640625,
+        1.196015625,
+        0.2239453125
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/error-all-frames.jpg"
+    },
+    "idle-rare": {
+      "frames": 107,
+      "durationMs": 4000,
+      "gifSHA256": "b453c28c30c69fe7a2540cd5c9f4c6d174767218aed7df600eba7034f474577d",
+      "firstLastMeanAbsRGBA": [
+        1.1543359375,
+        0.8151171875,
+        1.06828125,
+        0.2573046875
+      ],
+      "diagnosticSheet": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119/idle-rare-all-frames.jpg"
+    }
+  }
+}

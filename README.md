@@ -42,6 +42,14 @@ BanG Dream! 人物包 `1.0.1` 将工作状态更新为在实体笔记本电脑�
 
 初音 `1.0.0` 是已验收的**单待机版**：新造型参考图生成的一段 512×512、39 帧、1.8 秒透明循环 GIF。仅声明 `idle`，其他状态由客户端回退显示待机；不包含旧造型动作，也不提供彩蛋。H3 原生视频经蓝幕抠像后转换为 GIF，保留原生正序帧和交付字节。新图、实际提示词、原片、来源与验收记录见 [初音美术目录](art/characters/piapro/hatsune-miku/)。
 
+### Yuexin Meow / 月薪喵
+
+| 宠物 | 预览 | 下载 |
+| --- | --- | --- |
+| 月薪喵 / Yuexin Meow | ![月薪喵](preview/characters/yuexin-meow/yuexin-meow.png) | [月薪喵 ZIP](dist/characters/yuexin-meow/umeko-pet-yuexin-meow-1.0.0.zip) |
+
+月薪喵 `1.0.0` 包含待机、思考、工作、等待、完成、出错及捂鼻扇风的稀有待机七段 **512×512 透明循环 GIF**，内嵌人设与原创互动台词。工作时使用实体笔记本和带支撑脚的小桌。动作由 MiniMax H3 原生参考图视频生成，绿幕经 CPU 抠像得到透明背景；GIF 保留交付原字节。设计、作者出处、原片、实际提示词与验收校验记录见 [月薪喵美术目录](art/characters/yuexin-meow/yuexin-meow/)。
+
 每个包已内嵌专属 `persona` 和互动台词。Python v0.7.3 支持导入这些动画及彩蛋；人设生效需要支持悬浮小助手 `persona` 字段的新版客户端（当前 `main` 已支持）。
 
 ## 导入
@@ -62,7 +70,7 @@ python scripts/build_packs.py
 python -m http.server 43465 --bind 127.0.0.1
 ```
 
-仅重新打包人物 GIF、保留动物包原样时，使用 `python scripts/build_packs.py --characters-only`。这一步不重编码 GIF。预览页支持动物、人物、BanG Dream!、Hyouka 和 Piapro 分类，只显示各包实际提供的动作，并支持浅深背景。
+仅重新打包人物 GIF、保留动物包原样时，使用 `python scripts/build_packs.py --characters-only`。这一步不重编码 GIF。预览页支持动物、人物、BanG Dream!、Hyouka、Piapro 和 Yuexin Meow 分类，只显示各包实际提供的动作，并支持浅深背景。
 
 生成后用准备好 PySide6 的 Umeko Python 环境验证：
 
@@ -76,4 +84,4 @@ python scripts/validate_packs.py --desktop-source /path/to/umeko-desktop
 
 已验证的导出环境为 Pillow 11.1.0 / libwebp 1.5.0；相同环境下重复导出的 ZIP 校验值一致。更换编码器版本后可能需要更新校验值。
 
-本仓库原创动物资源与工具按 MIT 许可证提供。BanG Dream!、Hyouka 与初音未来人物包属于非官方同人改编，原角色与系列权利归相应权利人；具体说明随包附在 `LICENSE.txt`，不以仓库 MIT 许可重新授予原角色权利。
+本仓库原创动物资源与工具按 MIT 许可证提供。BanG Dream!、Hyouka、初音未来与月薪喵人物包属于非官方同人改编，原角色与系列权利归相应权利人；具体说明随包附在 `LICENSE.txt`，不以仓库 MIT 许可重新授予原角色权利。

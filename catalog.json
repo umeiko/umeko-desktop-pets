@@ -128,6 +128,21 @@
       "download": "dist/characters/piapro/umeko-pet-hatsune-miku-1.0.0.zip",
       "bytes": 3127420,
       "sha256": "3b56d9f1a5c9adbd65a95d32ecba9642ee9c4421867f2a86b0f43545344c1112"
+    },
+    {
+      "id": "yuexin-meow",
+      "name": "月薪喵",
+      "englishName": "Yuexin Meow",
+      "category": "characters",
+      "collection": "yuexin-meow",
+      "version": "1.0.0",
+      "description": "简笔表情包风格的月薪喵；七段原生视频动作转透明循环动画。",
+      "manifest": "pets/characters/yuexin-meow/yuexin-meow/pet.json",
+      "preview": "preview/characters/yuexin-meow/yuexin-meow.png",
+      "animation": "pets/characters/yuexin-meow/yuexin-meow/idle.gif",
+      "download": "dist/characters/yuexin-meow/umeko-pet-yuexin-meow-1.0.0.zip",
+      "bytes": 24618381,
+      "sha256": "81c64e468efaf1d684a59855b904232c39efebbd6822dd1fb3b9c944e77a62ba"
     }
   ]
 }

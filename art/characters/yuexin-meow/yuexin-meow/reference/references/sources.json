@@ -1,0 +1,31 @@
+{
+  "creatorPage": "https://www.sina.cn/media/5626763209",
+  "creatorIntroduction": "https://www.sina.cn/news/detail/5205405028059490.html",
+  "retrievedAt": "2026-11-19T14:57:01.354532+00:00",
+  "files": [
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-1.jpg",
+      "url": "https://wx3.sinaimg.cn/large/0068Nk9jgy1i4w1lk7siqj31cm1zgwj1.jpg",
+      "bytes": 178098,
+      "sha256": "4f761790f8c9beddaf3039b56fc1eb0f181e575240149747aa8e79eea91a45c4"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-2.jpg",
+      "url": "https://wx1.sinaimg.cn/large/0068Nk9jgy1i4w1lkk5p5j31cm1zg15m.jpg",
+      "bytes": 485379,
+      "sha256": "b1388ab9b81a70a95854bca427e6fde6d0e1a841bc94db3fc3fc4bb9c2fb62e0"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/creator-introduction-3.jpg",
+      "url": "https://wx3.sinaimg.cn/large/0068Nk9jgy1i4w1lkygnrj31cm1zgqrs.jpg",
+      "bytes": 926509,
+      "sha256": "46221b69d8c1ad781fbc2b59f2d35f1c8c888b1ae3a3ba33758edc1df87ab766"
+    },
+    {
+      "path": "/media/umeko/DATA/umeko-agents/yuexin-meow/references/community-idle.png",
+      "url": "https://raw.githubusercontent.com/emmett001/YuexinMeow-Desktop-Pet/master/assets/idle.png",
+      "bytes": 73646,
+      "sha256": "c0f8edda3a6fde994e439906e5841cefa9515ab5f48f48397337cd7a392d5365"
+    }
+  ]
+}

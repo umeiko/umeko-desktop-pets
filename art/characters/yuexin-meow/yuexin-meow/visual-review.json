@@ -1,0 +1,16 @@
+{
+  "reviewedAt": "2026-11-19T15:37:08.027732+00:00",
+  "deliveryFingerprint": "ce8401017f3732ee2930410b8e9d733dea6013c5af4b7a0518c69b3996b0dee9",
+  "scope": "Assistant visual review of all GIF forward-frame diagnostic sheets plus working/rare keyframes; actual playback next; human acceptance pending",
+  "observations": {
+    "idle": "Quiet standing, one blink, very small body/tail movement, feet grounded, same starting/ending pose",
+    "thinking": "Both paws lift beneath chin and small head tilt; readable thought gesture, not strictly one paw",
+    "working": "Supported desk and gray laptop remain throughout; small alternating paw taps at keyboard; two blinks; no clear detached paw or vanishing prop",
+    "waiting": "Small head tilt, blink and tail movement; quiet grounded pose",
+    "done": "Both paws raised beside chest, closed happy eyes and small open mouth; returns to reference pose",
+    "error": "Brief squeezed eyes, puzzled mouth and both paws near face/chest; returns to original pose",
+    "idle-rare": "One paw holds nose; other extends outward and moves near chest; motion count differs from two equal fanning strokes. Same master and stable short feet."
+  },
+  "decision": "Suitable to present as review candidate; human aesthetic judgment pending",
+  "humanAnimationAccepted": false
+}

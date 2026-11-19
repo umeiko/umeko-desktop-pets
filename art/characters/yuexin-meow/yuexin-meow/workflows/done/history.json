@@ -1,0 +1,302 @@
+{
+  "prompt": [
+    2,
+    "d9532baf-c36f-4692-80d1-57aab5ca8dd1",
+    {
+      "1": {
+        "class_type": "UNETLoaderMultiGPU",
+        "inputs": {
+          "unet_name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+          "weight_dtype": "default",
+          "device": "cuda:0"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoaderMultiGPU",
+        "inputs": {
+          "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+          "type": "minimax",
+          "device": "cuda:0"
+        }
+      },
+      "3": {
+        "class_type": "VAELoaderMultiGPU",
+        "inputs": {
+          "vae_name": "minimax_h3_video_vae_fp16.safetensors",
+          "device": "cuda:0"
+        }
+      },
+      "4": {
+        "class_type": "VAELoaderMultiGPU",
+        "inputs": {
+          "vae_name": "minimax_h3_audio_vae_fp32.safetensors",
+          "device": "cuda:0"
+        }
+      },
+      "5": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "umeko_manager/yuexin_meow_pet_animation/DONE_r0001.png"
+        }
+      },
+      "17": {
+        "class_type": "ImageScale",
+        "inputs": {
+          "image": [
+            "5",
+            0
+          ],
+          "upscale_method": "lanczos",
+          "width": 512,
+          "height": 512,
+          "crop": "disabled"
+        }
+      },
+      "6": {
+        "class_type": "MiniMaxH3ImageToVideo",
+        "inputs": {
+          "clip": [
+            "2",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ],
+          "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced. At 2.291667 seconds, <Picture 2> (the identical image) is fully referenced as the ending pose.\nintegrated_multimodal_description: [Shot 1] The exact same Yuexin Meow cat as the reference: white compact body, pale tan head and cheek patches, two cobalt-blue vertical eyes, tiny brown w mouth, short paws and feet, small tan tail, warm dark-brown thick outlines and clean flat sticker drawing. Full body visible with a fixed front camera and generous clear margins. Character proportions and colored patches stay consistent. The cat smiles, closes its eyes happily, lifts both little paws beside its chest in a small satisfied celebration, gives a gentle nod, then lowers its paws and returns to its original standing expression. Feet stay planted. Cute and restrained looping gesture. The background is a perfectly uniform saturated green #00FF00. The matching reference pose opens and closes this smooth continuous animation.\noverall_soundscape: Silence.\nnon_diegetic_music: N/A.",
+          "width": 512,
+          "height": 512,
+          "length": 56,
+          "first_frame": [
+            "17",
+            0
+          ],
+          "last_frame": [
+            "17",
+            0
+          ]
+        }
+      },
+      "8": {
+        "class_type": "BasicGuider",
+        "inputs": {
+          "model": [
+            "20",
+            0
+          ],
+          "conditioning": [
+            "6",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 202611190704
+        }
+      },
+      "10": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler"
+        }
+      },
+      "11": {
+        "class_type": "BasicScheduler",
+        "inputs": {
+          "model": [
+            "20",
+            0
+          ],
+          "scheduler": "simple",
+          "steps": 4,
+          "denoise": 1.0
+        }
+      },
+      "12": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "9",
+            0
+          ],
+          "guider": [
+            "8",
+            0
+          ],
+          "sampler": [
+            "10",
+            0
+          ],
+          "sigmas": [
+            "11",
+            0
+          ],
+          "latent_image": [
+            "6",
+            1
+          ]
+        }
+      },
+      "13": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "12",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "14": {
+        "class_type": "VAEDecodeAudio",
+        "inputs": {
+          "samples": [
+            "12",
+            0
+          ],
+          "vae": [
+            "4",
+            0
+          ]
+        }
+      },
+      "15": {
+        "class_type": "CreateVideo",
+        "inputs": {
+          "images": [
+            "13",
+            0
+          ],
+          "fps": 24.0,
+          "audio": [
+            "14",
+            0
+          ]
+        }
+      },
+      "16": {
+        "class_type": "SaveVideo",
+        "inputs": {
+          "video": [
+            "15",
+            0
+          ],
+          "filename_prefix": "video/manager/yuexin_meow_pet_animation/DONE_r0001",
+          "format": "mp4",
+          "format.codec": "h264",
+          "format.codec.encoding": "re-encode",
+          "format.codec.encoding.crf": 16.0
+        }
+      },
+      "18": {
+        "class_type": "UmekoH3FP16DenseAttention",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "collect_stats": false,
+          "label": "yuexin_meow_pet_animation_DONE_r0001"
+        }
+      },
+      "19": {
+        "class_type": "LoraLoaderModelOnly",
+        "inputs": {
+          "model": [
+            "18",
+            0
+          ],
+          "lora_name": "minimax_h3_fl2v_turbo_4step_v1.2_768p_comfyui_bf16.safetensors",
+          "strength_model": 1.0
+        }
+      },
+      "20": {
+        "class_type": "MiniMaxH3SigmaShift",
+        "inputs": {
+          "model": [
+            "19",
+            0
+          ],
+          "shift_video": 6.0,
+          "shift_audio": 3.0
+        }
+      }
+    },
+    {
+      "client_id": "umeko_user_resume_yuexin_meow_pet_animation_DONE_r0001",
+      "create_time": 1795101761800
+    },
+    [
+      "16"
+    ]
+  ],
+  "outputs": {
+    "16": {
+      "images": [
+        {
+          "filename": "DONE_r0001_00001_.mp4",
+          "subfolder": "video/manager/yuexin_meow_pet_animation",
+          "type": "output",
+          "metadata": {
+            "kind": "video",
+            "width": 512,
+            "height": 512,
+            "duration": 2.3333333333333335,
+            "fps": 24.0,
+            "frame_count": 56
+          }
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "d9532baf-c36f-4692-80d1-57aab5ca8dd1",
+          "timestamp": 1795101761802
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "10"
+          ],
+          "prompt_id": "d9532baf-c36f-4692-80d1-57aab5ca8dd1",
+          "timestamp": 1795101761806
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "d9532baf-c36f-4692-80d1-57aab5ca8dd1",
+          "timestamp": 1795101872285
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "16": {
+      "node_id": "16",
+      "display_node": "16",
+      "parent_node": null,
+      "real_node_id": "16"
+    }
+  }
+}

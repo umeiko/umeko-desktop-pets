@@ -1,0 +1,60 @@
+{
+  "status": "definitive-materials-ready",
+  "createdAt": "2026-11-19T15:13:19.075842+00:00",
+  "humanAuthorization": "再做一个月薪猫的桌面小宠物，还是原来的一套流程，包括你去找minimax那边的agent帮你出视频再交付回来，我相信你，你端到端的干一把，我看看结果",
+  "humanMessageId": "01a1f447-4ef8-74c3-802e-fb6ee79faa0f",
+  "sourceThreadId": "01a1d55a-e983-7ff2-a5cc-c5d7426c140f",
+  "sourceHostId": "local",
+  "sourceRoot": "/media/umeko/DATA/umeko-agents/yuexin-meow",
+  "masterImage": "/media/umeko/DATA/umeko-agents/yuexin-meow/character.png",
+  "masterSHA256": "76e7229d8020b05d68d4cbdd756a5983a57f0e8a1d2ae20349c9d634c4dc9b5e",
+  "workingImage": "/media/umeko/DATA/umeko-agents/yuexin-meow/working-reference.png",
+  "workingSHA256": "afa9d2376dcc9be0b8008f4c0183091b19f4cb7a481ca7cde80a8c0f75ba5aac",
+  "states": [
+    "idle",
+    "thinking",
+    "working",
+    "waiting",
+    "done",
+    "error",
+    "idle-rare"
+  ],
+  "promptFiles": {
+    "idle": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/idle.txt",
+    "thinking": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/thinking.txt",
+    "working": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/working.txt",
+    "waiting": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/waiting.txt",
+    "done": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/done.txt",
+    "error": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/error.txt",
+    "idle-rare": "/media/umeko/DATA/umeko-agents/yuexin-meow/prompts/idle-rare.txt"
+  },
+  "targetDurationMs": {
+    "idle": 1800,
+    "thinking": 2400,
+    "working": 2200,
+    "waiting": 2400,
+    "done": 2200,
+    "error": 2400,
+    "idle-rare": 4000
+  },
+  "expectedDelivery": "/home/umeko/Desktop/yuexin-meow-pet-animation-20261119/yuexin-meow",
+  "checksums": "/media/umeko/DATA/umeko-agents/yuexin-meow/SHA256SUMS.txt",
+  "negativePrompt": "",
+  "renderAuthorization": "Directly proceed with seven native I2V states under the actual human end-to-end production authorization already verified in readiness_and_human_authorization.json. Both reference images and all seven texts are definitive for this batch. Do not request a separate design approval before production.",
+  "scope": "Seven states; specific content corrections allowed; human animation acceptance is still pending.",
+  "generationContract": [
+    "All motion from reference-guided native temporal video, preserve all original forward frames and original videos.",
+    "Use working-reference at both ends of working; other six use neutral master.",
+    "Working must have stable solid supported desk and real laptop, cat paws contacting keyboard.",
+    "Select chroma background contrasting with tan/white/brown and cobalt blue eyes; preserve filled eyes and body in matte.",
+    "Keep actual final model text and workflow, disclose non-native transparency.",
+    "No static movement/deformation composites, reverse playback or manufactured frames.",
+    "Check actual content and full cycles, not only decodability."
+  ],
+  "callbackAuthorized": true,
+  "callback": "Upon complete formal delivery notify source chat 01a1d55a-e983-7ff2-a5cc-c5d7426c140f on local and supply directory, master/GIF/video/checksum fingerprints and observations. If coordination tool unavailable, save completion.json here with complete=false until all seven files finalized, and write coordination/delivery-ready.json when fully complete.",
+  "sourceHandoffReadOnly": "/home/umeko/.local/state/umeko/handoffs/yuexin-meow-20261119.json",
+  "sourcePreviewDirectory": "/home/umeko/.local/state/umeko/acceptance/yuexin-meow-20261119",
+  "publicationAuthorizedNow": false,
+  "animationAccepted": false
+}
